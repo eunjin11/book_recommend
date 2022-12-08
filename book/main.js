@@ -60,7 +60,7 @@ async function clickinputId() {
   console.log(inputID);
   // console.log();
   const d = await window.axios.get("./book/data_1205_new.csv");
-  // console.log(d.data);
+  console.log(d.data);
   const result = d.data;
   const id = inputID;
 
