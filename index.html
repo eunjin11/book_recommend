@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8" />
+
+<style>
+  .links line {
+    stroke: #999;
+    /*stroke: #fff;*/
+    stroke-opacity: 0.3;
+  }
+
+  .nodes circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+  }
+
+  .nodes rect {
+    stroke: #fff;
+    stroke-width: 1.5px;
+  }
+
+  text {
+    font-family: sans-serif;
+    font-size: 10px;
+  }
+
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+</style>
+<div>
+  ID : <input id="userid" type="text" /><br />
+  <input type="button" value="입력하기" onclick="clickinputId()" />
+  <div id="result"></div>
+</div>
+<div>
+  <div id="bookInfo"></div>
+  <svg
+    id="mainview"
+    style="width: 100%; height: 100%"
+    width="1000"
+    height="500"
+  ></svg>
+</div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="/book/main.js"></script>
+<script>
+  var svg = d3.select("#mainview").attr("width", 1000).attr("height", 1000),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+  var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+  var simulation = d3
+    .forceSimulation()
+    .force(
+      "link",
+      d3.forceLink().id(function (d) {
+        return d.id;
+      })
+    )
+    .force("charge", d3.forceManyBody().strength(-40)) //뒤에 .strength(-5) 붙이면 노드들이 가까워짐
+    .force("center", d3.forceCenter(width / 2, height / 2));
+
+  d3.json("book/book_user_1205.json", function (error, graph) {
+    createNetwork(graph);
+  });
+
+  function createNetwork(graph) {
+    document
+      .querySelector("#mainview")
+      .replaceChildren(document.querySelector("#mainview").children);
+
+    var g2 = svg.append("g").attr("class", "everything");
+
+    var link = g2
+      .append("g")
+      .attr("class", "links")
+      .selectAll("line")
+      .data(graph.links)
+      .enter()
+      .append("line")
+      .attr("stroke-width", function (d) {
+        return Math.sqrt(d.value);
+      });
+
+    var node = g2
+      .append("g")
+      .attr("class", "nodes")
+      .selectAll("g")
+      .data(graph.nodes)
+      .enter()
+      .append("g")
+      .on("click", clicked);
+
+    /*모양 바꾸기
+    https://stackoverflow.com/questions/42995899/how-to-link-two-different-shapes-in-d3-js
+    */
+    node.each(function (d) {
+      if (d.group != "책") {
+        d3.select(this)
+          .append("circle")
+          .attr("r", 6)
+          .style("fill", function (d) {
+            return color(d.group);
+          });
+      } else {
+        d3.select(this)
+          .append("rect")
+          .attr("height", 10)
+          .attr("width", 10)
+          .attr("x", -(10 / 2))
+          .attr("y", -(10 / 2))
+          .style("fill", "#f86f84");
+      }
+    });
+
+    // Create a drag handler and append it to the node object instead
+    var drag_handler = d3
+      .drag()
+      .on("start", dragstarted)
+      .on("drag", dragged)
+      .on("end", dragended);
+
+    drag_handler(node);
+
+    //줌 참고 코드 https://bl.ocks.org/puzzler10/4438752bb93f45dc5ad5214efaa12e4a
+
+    var zoom_handler = d3.zoom().on("zoom", zoom_actions);
+
+    zoom_handler(svg);
+
+    function zoom_actions() {
+      g2.attr("transform", function (d) {
+        return d3.event.transform;
+      });
+    }
+
+    /* 책 제목 띄우기
+      var lables = node
+        .append("text")
+        .text(function (d) {
+          return d.id;
+        })
+        .attr("x", 6)
+        .attr("y", 3);
+        */
+
+    node.append("title").text(function (d) {
+      return d.id;
+    });
+
+    simulation.nodes(graph.nodes).on("tick", ticked);
+
+    simulation.force("link").links(graph.links);
+
+    function ticked() {
+      //console.log("ticeked 실행");
+      link
+        .attr("x1", function (d) {
+          return d.source.x;
+        })
+        .attr("y1", function (d) {
+          return d.source.y;
+        })
+        .attr("x2", function (d) {
+          return d.target.x;
+        })
+        .attr("y2", function (d) {
+          return d.target.y;
+        });
+
+      node.attr("transform", function (d) {
+        //if (d.y < 0) d.y = -d.y; //범위 안벗어나게
+        return "translate(" + d.x + "," + d.y + ")";
+      });
+    }
+  }
+
+  function dragstarted(d) {
+    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+  }
+
+  function dragged(d) {
+    d.fx = d3.event.x;
+    d.fy = d3.event.y;
+  }
+
+  function dragended(d) {
+    if (!d3.event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+  }
+  //줌 기능 추가하기 https://steelblue.tistory.com/9
+
+  //https://bl.ocks.org/heybignick/3faf257bbbbc7743bb72310d03b86ee8
+</script>
