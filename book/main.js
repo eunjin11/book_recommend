@@ -65,8 +65,8 @@ async function clickinputId() {
   const id = inputID;
 
   function makearr(result) {
-    const rows = result.split("\r\n");
-    //const rows = result.split("\n");
+    //const rows = result.split("\r\n");
+    const rows = result.split("\n");
 
     const jsonArray = [];
 
