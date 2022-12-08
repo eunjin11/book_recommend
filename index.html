@@ -46,7 +46,7 @@
 </div>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="/book/main.js"></script>
+<script src="./book/main.js"></script>
 <script>
   var svg = d3.select("#mainview").attr("width", 1000).attr("height", 1000),
     width = +svg.attr("width"),
@@ -65,7 +65,7 @@
     .force("charge", d3.forceManyBody().strength(-40)) //뒤에 .strength(-5) 붙이면 노드들이 가까워짐
     .force("center", d3.forceCenter(width / 2, height / 2));
 
-  d3.json("book/book_user_1205.json", function (error, graph) {
+  d3.json("./book/book_user_1205.json", function (error, graph) {
     createNetwork(graph);
   });
 
