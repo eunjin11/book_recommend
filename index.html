@@ -15,7 +15,7 @@
   }
 
   .nodes rect {
-    stroke: #fff;
+    stroke: #ffc6ce;
     stroke-width: 1.5px;
   }
 
@@ -30,20 +30,24 @@
     margin: 0;
   }
 </style>
-<div>
-  ID : <input id="userid" type="text" /><br />
-  <input type="button" value="입력하기" onclick="clickinputId()" />
-  <div id="result"></div>
-</div>
-<div>
-  <div id="bookInfo"></div>
-  <div id="major_category"></div>
+
+<div style="display: flex">
   <svg
     id="mainview"
-    style="width: 100%; height: 100%"
+    style="width: 70%; height: 100%"
     width="1000"
     height="500"
   ></svg>
+
+  <div id="major_category" style="width: 30%; height: 100%">
+    <div id="bookInfo"></div>
+    <img src="major_category.png" />
+    <div>
+      ID : <input id="userid" type="text" /><br />
+      <input type="button" value="입력하기" onclick="clickinputId()" />
+      <div id="result"></div>
+    </div>
+  </div>
 </div>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -131,6 +135,8 @@
           .style("stroke", "#ff0000")
           .style("stroke-opacity", 1);
 
+        node.select(this).style("stroke", "#ff0000");
+
         // selectedlinklist = link.filter(
         //   (l) => l.source.id === d.id || l.target.id === d.id
         // );
@@ -165,7 +171,7 @@
           .style("stroke", "#999")
           .style("stroke-opacity", 0.3);
 
-        node.style("opacity", 1);
+        //node.style("opacity", 1);
         //node.attr("display", "block");
       });
 
@@ -178,8 +184,135 @@
           .append("circle")
           .attr("r", 6)
           .style("fill", function (d) {
-            if (d.group == "미디어학과") return colorlist[0];
-            else return color(d.group);
+            switch (d.group) {
+              case "경영학전공":
+                return "#ff9e9e";
+
+              case "금융공학전공":
+                return "#fc7272";
+
+              case "e-비즈니스학전공":
+                return "#ff3737";
+
+              case "경제학전공":
+                return "#ffbf9b";
+
+              case "법학전공":
+                return "#ffa06a";
+
+              case "사학전공":
+                return "#fc7272";
+
+              case "스포츠레저학과":
+                return "#fc7272";
+
+              case "심리학전공":
+                return "#d7a082";
+
+              //사회학전공 추가해달라고 하기
+
+              case "사회학전공":
+                return "#a96642";
+
+              case "정치외교학전공":
+                return "#a96642";
+
+              case "행정학전공":
+                return "#6c3212";
+
+              case "국어국문학전공":
+                return "#ffbaf0";
+
+              case "문화콘텐츠학전공":
+                return "#ff8ee6";
+
+              case "불어불문학전공":
+                return "#ff44d6";
+
+              case "영어영문학전공":
+                return "#de00ad";
+
+              case "건설시스템공학전공":
+                return "#c1daff";
+
+              case "건축공학전공":
+                return "#81b3ff";
+
+              case "건축학과":
+                return "#4d94ff";
+
+              case "교통시스템공학전공":
+                return "#0067ff";
+
+              case "기계공학과":
+                return "#cfbeff";
+
+              case "산업공학전공":
+                return "#ad90ff";
+
+              case "생명공학전공":
+                return "#8d65ff";
+
+              case "신소재공학전공":
+                return "#6027ff";
+
+              case "응용화학생명공학전공":
+                return "#3700d3";
+
+              //응용화학 카테고리에 없음
+              case "응용화학전공":
+                return "#8b00f9";
+
+              case "화학공학전공":
+                return "#8b00f9";
+
+              case "환경공학전공":
+                return "#430078";
+
+              case "미디어학과":
+                return "#ffe897";
+
+              case "소프트웨어보안전공":
+                return "#ffd43e";
+
+              case "소프트웨어융합전공":
+                return "#debb00";
+
+              //정보컴퓨터공학도 없음
+              case "정보컴퓨터공학전공":
+                return "#debb00";
+
+              case "전자공학전공":
+                return "#E9FA69";
+
+              case "물리학전공":
+                return "#cdf4ba";
+
+              case "생명과학전공":
+                return "#9df075";
+
+              case "수학전공":
+                return "#68d135";
+
+              case "화학전공":
+                return "#069a1e";
+
+              case "간호학부":
+                return "#ebebeb";
+
+              case "약학전공":
+                return "#ababab";
+
+              case "의학전공":
+                return "#4b4b4b";
+
+              default:
+                return "#ffffff";
+
+              ///https://ko.rakko.tools/tools/64/ 이미지 색 추출 링크
+              // if (d.group == "미디어학과") return "#ffe897";
+              // else return color(d.group);
+            }
           });
       } else {
         d3.select(this)
@@ -188,7 +321,7 @@
           .attr("width", 10)
           .attr("x", -(10 / 2))
           .attr("y", -(10 / 2))
-          .style("fill", "#f86f84");
+          .style("fill", "#fff");
       }
     });
 
