@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const result = fs.readFileSync("book/의과대_data.csv").toString();
+const result = fs.readFileSync("book/약학대_data.csv").toString();
 
 //const id = "AJ1103866";
 
@@ -183,4 +183,4 @@ jsonarr[jsonheader[0]] = booknode;
 //jsonarr[jsonheader[0]].push(usernode);
 jsonarr[jsonheader[1]] = linklist;
 console.log("끝");
-fs.writeFileSync("book/college9.json", JSON.stringify(jsonarr));
+fs.writeFileSync("book/college8.json", JSON.stringify(jsonarr));
