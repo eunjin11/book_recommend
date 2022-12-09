@@ -29,23 +29,187 @@
     height: 100%;
     margin: 0;
   }
+
+  h1 {
+    position: fixed;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 0 0 0px;
+    padding: 13px 13px 13px 13px;
+    background-color: #5b7fff;
+    color: #fff;
+  }
+
+  .button {
+    /*width: 72px;*/
+    color: #fff;
+    height: 34px;
+    line-height: 12px;
+    margin: 4px 4px 8px 6px;
+    padding: 9px 12px;
+    border-radius: 16px;
+    border: #5b7fff;
+    background-color: #5b7fff;
+
+    font-family: InriaSans;
+    font-size: 12px;
+
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+  }
+
+  .sidebar {
+    width: 27%;
+
+    margin: 0 0 0 0 px;
+    padding: 86px 10px 10px 10px;
+
+    background-color: #f5f5f5;
+  }
+
+  #mainview {
+    width: 73%;
+  }
+
+  .Major {
+    margin: 8px 8px 8px 14px;
+    font-family: InriaSans;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  }
+
+  .InfoBox {
+    height: 170px;
+    margin: 0 0 0 0 px;
+    padding: 10px 10px 10px 10px;
+
+    background-color: #ffffff;
+  }
+  .InfoText {
+    margin: 8px 8px 12px 12px;
+    font-family: InriaSans;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
+  #result {
+    margin: 8px 8px 12px 12px;
+    font-family: InriaSans;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
+  #bookInfo {
+    margin: 8px 8px 12px 12px;
+    font-family: InriaSans;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7c7c7c;
+  }
 </style>
+<h1>Let's Find Book!</h1>
 
 <div style="display: flex">
-  <svg
-    id="mainview"
-    style="width: 70%; height: 100%"
-    width="1000"
-    height="500"
-  ></svg>
-
-  <div id="major_category" style="width: 30%; height: 100%">
-    <div id="bookInfo"></div>
-    <img src="major_category.png" />
-    <div>
-      ID : <input id="userid" type="text" /><br />
-      <input type="button" value="입력하기" onclick="clickinputId()" />
-      <div id="result"></div>
+  <svg id="mainview" width="1000" height="500"></svg>
+  <div class="sidebar">
+    <div class="Major">Major</div>
+    <div id="major_category">
+      <img style="width: 100%" src="major_category.png" />
+      <div>
+        <!--ID : <input id="userid" type="text" /><br />-->
+        <input
+          class="button"
+          type="button"
+          value="선택한 사용자로 서브뷰 그리기"
+          onclick="clickinputId()"
+        />
+        <div class="Major">단과대별로 필터링하기</div>
+        <input
+          type="button"
+          class="button"
+          value="경영대학"
+          onclick="filtering1()"
+        />
+        <input
+          type="button"
+          class="button"
+          value="사회과학대학"
+          onclick="filtering2()"
+        />
+        <input
+          type="button"
+          class="button"
+          value="인문대학"
+          onclick="filtering3()"
+        />
+        <input
+          type="button"
+          class="button"
+          value="공과대학"
+          onclick="filtering4()"
+        />
+        <input
+          type="button"
+          class="button"
+          value="정보통신대학"
+          onclick="filtering5()"
+        />
+        <input
+          type="button"
+          class="button"
+          value="자연과학대학"
+          onclick="filtering6()"
+        />
+        <input
+          type="button"
+          class="button"
+          value="간호대학"
+          onclick="filtering7()"
+        />
+        <input
+          type="button"
+          class="button"
+          value="약학대학"
+          onclick="filtering8()"
+        />
+        <input
+          type="button"
+          class="button"
+          value="의과대학"
+          onclick="filtering9()"
+        />
+        <div class="Major">Information</div>
+        <div class="InfoBox">
+          <div class="InfoText">선택된 노드</div>
+          <div id="result"></div>
+          <div id="bookInfo"></div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -56,31 +220,6 @@
   var svg = d3.select("#mainview").attr("width", 1000).attr("height", 1000),
     width = +svg.attr("width"),
     height = +svg.attr("height");
-
-  var color = d3.scaleOrdinal(d3.schemeCategory20);
-  var colorlist = [
-    "#000000",
-    "#1f77b4",
-    "#aec7e8",
-    "#ff7f0e",
-    "#ffbb78",
-    "#2ca02c",
-    "#98df8a",
-    "#d62728",
-    "#ff9896",
-    "#9467bd",
-    "#c5b0d5",
-    "#8c564b",
-    "#c49c94",
-    "#e377c2",
-    "#f7b6d2",
-    "#7f7f7f",
-    "#c7c7c7",
-    "#bcbd22",
-    "#dbdb8d",
-    "#17becf",
-    "#9edae5",
-  ];
 
   var simulation = d3
     .forceSimulation()
@@ -93,7 +232,55 @@
     .force("charge", d3.forceManyBody().strength(-40)) //뒤에 .strength(-5) 붙이면 노드들이 가까워짐
     .force("center", d3.forceCenter(width / 2, height / 2));
 
-  d3.json("./book/book_user_1205.json", function (error, graph) {
+  function filtering1() {
+    d3.json("./book/college1.json", function (error, graph) {
+      createNetwork(graph);
+    });
+  }
+
+  function filtering2() {
+    d3.json("./book/college2.json", function (error, graph) {
+      createNetwork(graph);
+    });
+  }
+  function filtering3() {
+    d3.json("./book/college3.json", function (error, graph) {
+      createNetwork(graph);
+    });
+  }
+  function filtering4() {
+    d3.json("./book/college4.json", function (error, graph) {
+      createNetwork(graph);
+    });
+  }
+  function filtering5() {
+    d3.json("./book/college5.json", function (error, graph) {
+      createNetwork(graph);
+    });
+  }
+  function filtering6() {
+    d3.json("./book/college6.json", function (error, graph) {
+      createNetwork(graph);
+    });
+  }
+  function filtering7() {
+    d3.json("./book/college7.json", function (error, graph) {
+      createNetwork(graph);
+    });
+  }
+  function filtering8() {
+    d3.json("./book/college8.json", function (error, graph) {
+      createNetwork(graph);
+    });
+  }
+
+  function filtering9() {
+    d3.json("./book/college9.json", function (error, graph) {
+      createNetwork(graph);
+    });
+  }
+
+  d3.json("./book/test.json", function (error, graph) {
     createNetwork(graph);
   });
 
@@ -122,7 +309,6 @@
       .data(graph.nodes)
       .enter()
       .append("g")
-      .on("click", clicked)
       .on("mouseenter", function (d) {
         //.style("stroke-width", 1.5).style("stroke", "#ff0000");
         //https://observablehq.com/@john-guerra/force-directed-graph-with-link-highlighting
@@ -135,35 +321,18 @@
           .style("stroke", "#ff0000")
           .style("stroke-opacity", 1);
 
-        node.select(this).style("stroke", "#ff0000");
+        d3.select(this)
+          .select("circle")
+          .attr("r", 6)
+          .style("stroke-width", 1.5)
+          .style("stroke", "#ff0000");
 
-        // selectedlinklist = link.filter(
-        //   (l) => l.source.id === d.id || l.target.id === d.id
-        // );
-
-        // selectedlinklist2 = [];
-        // for (i = 0; i < selectedlinklist._groups[0].length; i++) {
-        //   selectedlinklist2.push(selectedlinklist._groups[0][i].__data__);
-        // }
-        // console.log(selectedlinklist2);
-        // node
-        //   .style("opacity", 0.1)
-
-        //   .filter((item) =>
-        //     selectedlinklist2.filter(
-        //       (i) => i.source.id === item.id || i.target.id === item.id
-        //     )
-        //   )
-        //   .style("opacity", 1);
-
-        // console.log(
-        //   node.filter(
-        //     (item) =>
-        //       selectedlinklist2.filter((i) => i.id === item.id).length > 0
-        //   )
-        // );
-
-        // d3.select(this).style("opacity", 1);
+        d3.select(this)
+          .select("rect")
+          .attr("height", 15)
+          .attr("width", 15)
+          .style("stroke-width", 3)
+          .style("stroke", "#ff0000");
       })
       .on("mouseleave", (evt) => {
         link
@@ -171,9 +340,18 @@
           .style("stroke", "#999")
           .style("stroke-opacity", 0.3);
 
-        //node.style("opacity", 1);
-        //node.attr("display", "block");
-      });
+        d3.selectAll("circle")
+          .attr("r", 6)
+          .style("stroke-width", 1.5)
+          .style("stroke", "#fff");
+
+        d3.selectAll("rect")
+          .attr("height", 10)
+          .attr("width", 10)
+          .style("stroke-width", 1.5)
+          .style("stroke", "#ffc6ce");
+      })
+      .on("click", clicked);
 
     /*모양 바꾸기
     https://stackoverflow.com/questions/42995899/how-to-link-two-different-shapes-in-d3-js

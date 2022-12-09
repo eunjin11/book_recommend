@@ -1,0 +1,1586 @@
+{
+  "nodes": [
+    { "id": "AJ1107417", "group": "컴퓨터공학전공(과)" },
+    { "id": "AJ1100426", "group": "컴퓨터공학전공(과)" },
+    { "id": "AJ1101679", "group": "미디어학전공(과)" },
+    { "id": "AJ1105277", "group": "컴퓨터공학전공(과)" },
+    { "id": "AJ1101955", "group": "미디어학전공(과)" },
+    { "id": "AJ1102069", "group": "미디어학전공(과)" },
+    { "id": "AJ1100139", "group": "미디어학전공(과)" },
+    { "id": "AJ1100018", "group": "경영학전공(과)" },
+    { "id": "AJ1103866", "group": "미디어학전공(과)" },
+    { "id": "AJ1100944", "group": "미디어학전공(과)" },
+    { "id": "AJ1104630", "group": "미디어학전공(과)" },
+    { "id": "AJ1107595", "group": "컴퓨터공학전공(과)" },
+    { "id": "AJ1107238", "group": "스마트콘텐츠전공(과)" },
+    { "id": "AJ1105619", "group": "미디어학전공(과)" },
+    { "id": "AJ1102738", "group": "컴퓨터공학전공(과)" },
+    { "id": "AJ1109992", "group": "사회학전공(과)" },
+    { "id": "AJ1109652", "group": "소셜미디어전공(과)" },
+    { "id": "AJ1102572", "group": "컴퓨터공학전공(과)" },
+    { "id": "AJ1102732", "group": "컴퓨터공학전공(과)" },
+    { "id": "AJ1100128", "group": "산업공학과" },
+    { "id": "AJ1100128", "group": "산업공학전공(과)" },
+    { "id": "AJ1108741", "group": "스마트콘텐츠전공(과)" },
+    { "id": "AJ1107908", "group": "경영학전공(과)" },
+    { "id": "AJ1102807", "group": "문화콘텐츠학전공(과)" },
+    { "id": "AJ1103839", "group": "미디어학전공(과)" },
+    { "id": "AJ1105350", "group": "사학전공(과)" },
+    { "id": "AJ1103756", "group": "화학공학전공(과)" },
+    { "id": "AJ1102363", "group": "e-비즈니스학전공(과)" },
+    { "id": "AJ1103088", "group": "미디어학전공(과)" },
+    { "id": "AJ1103965", "group": "e-비즈니스학전공(과)" },
+    { "id": "AJ1100515", "group": "불어불문학전공(과)" },
+    { "id": "AJ1107380", "group": "불어불문학전공(과)" },
+    { "id": "(전병선의) 객체지향 이야기", "group": "책" },
+    { "id": "통계학입문", "group": "책" },
+    { "id": "(우리가 몰랐던) 우리 역사(歷史)", "group": "책" },
+    { "id": "(Excel로 풀어본) 확률 및 통계학", "group": "책" },
+    { "id": "데이타 通信 및 컴퓨터通信  -", "group": "책" },
+    { "id": "(알기쉬운) 통계학", "group": "책" },
+    { "id": "프로그래밍 콘테스트 챌린징", "group": "책" },
+    { "id": "(임종수의) Simulink 7", "group": "책" },
+    { "id": "프로그래머로 산다는 것", "group": "책" },
+    { "id": "Programing Amazon EC2", "group": "책" },
+    { "id": "플랫폼이란 무엇인가?", "group": "책" },
+    { "id": "세븐 데이터베이스", "group": "책" },
+    { "id": "소설 이천년대", "group": "책" },
+    { "id": "예고된 죽음의 연대기", "group": "책" },
+    { "id": "게임소재로서의 동양신화", "group": "책" },
+    { "id": "Keynote guide book for macintosh & iPad", "group": "책" },
+    { "id": "JQUERY Novice to ninja", "group": "책" },
+    { "id": "(The)street book", "group": "책" },
+    { "id": "MongoDB 완벽 가이드", "group": "책" },
+    { "id": "(100만 방문자와 소통하는) 페이스북 페이지 만들기", "group": "책" },
+    { "id": "감정의 인문학", "group": "책" },
+    { "id": "디자이너의 문화 읽기", "group": "책" },
+    { "id": "웹디자인 2.0 고급 CSS", "group": "책" },
+    { "id": "우디 앨런", "group": "책" },
+    { "id": "살인중독", "group": "책" },
+    { "id": "그리드를 넘어서", "group": "책" },
+    { "id": "(더글라스 크락포드의) 자바스크립트 핵심 가이드", "group": "책" },
+    { "id": "(크리에이티브 디자이너를 위한) 웹표준", "group": "책" },
+    { "id": "(거침없이 배우는) 자바 스크립트", "group": "책" },
+    { "id": "게이미피케이션", "group": "책" },
+    { "id": "인류학 민족지 연구 어떻게 할 것인가", "group": "책" },
+    { "id": "(Do it!) 워드프레스 웹사이트 만들기", "group": "책" },
+    { "id": "(Le) nouveau DELF B2", "group": "책" },
+    { "id": "자료 구조와 C", "group": "책" },
+    { "id": "(김대균의) 토익 공식 2000 -", "group": "책" },
+    { "id": "손에 잡히는 Vim", "group": "책" },
+    { "id": "윈도우 네트워크 프로그래밍", "group": "책" },
+    { "id": "(다시 체계적으로 배우는) C언어 포인터", "group": "책" },
+    { "id": "삼성 SSAT workshop 직무적성검사", "group": "책" },
+    { "id": "(초보자를 위한) Linux & unix C 프로그래밍", "group": "책" },
+    { "id": "C 배열과 포인터 그리고 자료구조", "group": "책" },
+    { "id": "Ubuntu Linux toolbox", "group": "책" },
+    { "id": "C 자료구조 입문", "group": "책" },
+    { "id": "(친절한 김샘의) 함수 포인터 강의", "group": "책" },
+    { "id": "조선 왕을 말하다", "group": "책" },
+    { "id": "존재하는 신", "group": "책" },
+    { "id": "구글러가 전하는 IT 취업 가이드", "group": "책" },
+    { "id": "PC 조립 하드웨어 무작정 따라하기", "group": "책" },
+    { "id": "J이야기", "group": "책" },
+    { "id": "이보영의 113 스피킹 해빗", "group": "책" },
+    {
+      "id": "(불안하지만 설레는 순간) 스물아홉 서툴지만 괜찮은",
+      "group": "책"
+    },
+    { "id": "사양", "group": "책" },
+    { "id": "아즈텍과 마야 신화", "group": "책" },
+    { "id": "(이보영의 Twentys's) life style English", "group": "책" },
+    { "id": "엑또르 씨의 시간 여행", "group": "책" },
+    { "id": "착한 여자", "group": "책" },
+    { "id": "꿈보다 열정", "group": "책" },
+    { "id": "나의 다정한 그림", "group": "책" },
+    { "id": "해뜨기 전이 가장 어둡다", "group": "책" },
+    { "id": "청혼", "group": "책" },
+    { "id": "지금 이순간을 기억해", "group": "책" },
+    { "id": "이영도 판타지 단편집", "group": "책" },
+    { "id": "일러스트레이터 필살기", "group": "책" },
+    {
+      "id": "(출발에서 도착까지 꼼꼼하게 알려주는) 친절한 여행책",
+      "group": "책"
+    },
+    { "id": "써먹는 심리학", "group": "책" },
+    { "id": "명랑 소녀 인도를 삼키다", "group": "책" },
+    { "id": "(이번엔!) 제주", "group": "책" },
+    { "id": "부처의 말", "group": "책" },
+    { "id": "(예제가 가득한) 일러스트레이터 CS3", "group": "책" },
+    { "id": "(Insight Guides) 터키", "group": "책" },
+    { "id": "안녕 D", "group": "책" },
+    { "id": "러브 토크", "group": "책" },
+    { "id": "(김영민의) 공부론", "group": "책" },
+    { "id": "대한민국 마을여행", "group": "책" },
+    { "id": "스마트 시대 핫 트렌드 33", "group": "책" },
+    { "id": "옳다고 생각하면 행동하라", "group": "책" },
+    { "id": "현문우답", "group": "책" },
+    { "id": "(세상에서 가장 영향력 있는) 50인의 디자인", "group": "책" },
+    { "id": "리눅스 커널 2.6 구조와 원리", "group": "책" },
+    { "id": "아이폰 UI 디자인 프로젝트", "group": "책" },
+    { "id": "시스템 소프트웨어와 리눅스 프로그래밍", "group": "책" },
+    { "id": "TCP/IP 소켓 프로그래밍 C# 버전", "group": "책" },
+    {
+      "id": "(따라하고 싶은 달콤한 유혹) 플래시 내비게이션 제작 테크닉",
+      "group": "책"
+    },
+    { "id": "아이폰 SDK 애플리케이션 개발", "group": "책" },
+    { "id": "CSS 비밀 매뉴얼", "group": "책" },
+    {
+      "id": "(애플 휴먼 인터페이스 가이드라인을 알기 쉽게 풀어쓴) 아이폰 UX 프로그래밍",
+      "group": "책"
+    },
+    { "id": "(실습으로 배우는) 객체지향 프로그래밍", "group": "책" },
+    { "id": "안녕 뉴욕", "group": "책" },
+    { "id": "영화", "group": "책" },
+    { "id": "트렌드를 읽는 기술", "group": "책" },
+    { "id": "맑스를 읽자", "group": "책" },
+    { "id": "명품 마케팅", "group": "책" },
+    { "id": "맥킨지는 일하는 방식이 다르다", "group": "책" },
+    { "id": "경영·경제·인생 강좌 45편", "group": "책" },
+    { "id": "엑셀 함수 활용 콘사이스 145", "group": "책" },
+    { "id": "칼리 피오리나 힘든 선택들", "group": "책" },
+    { "id": "유니크로 방식", "group": "책" },
+    { "id": "(마빈 바우어) 맥킨지의 모든것", "group": "책" },
+    { "id": "(필립 코틀러의) social marketing", "group": "책" },
+    { "id": "맥킨지는 일하는 마인드가 다르다", "group": "책" },
+    { "id": "(청소년을 위한) 연암 박지원 소설집", "group": "책" },
+    { "id": "세계의 아트디렉터 10", "group": "책" },
+    { "id": "사막을 건너야 서른이 온다", "group": "책" },
+    { "id": "그리드 디자인 어드밴스", "group": "책" },
+    { "id": "기호학이란 무엇인가 -", "group": "책" },
+    { "id": "살아 있는 우리 신화", "group": "책" },
+    { "id": "멀티미디어 교과서", "group": "책" },
+    { "id": "자바스크립트 성능 이야기", "group": "책" },
+    { "id": "살아야 하는 이유", "group": "책" },
+    { "id": "내 인생 후회되는 한 가지", "group": "책" },
+    { "id": "NHN 오픈 API를 활용한 매시업", "group": "책" },
+    { "id": "자바스크립트 UI 개발과 Jindo 프레임워크", "group": "책" },
+    { "id": "하루 10분 세계사의 오리진을 만나다", "group": "책" },
+    { "id": "와인 천재가 된 홍대리", "group": "책" },
+    { "id": "철학의 즐거움", "group": "책" },
+    { "id": "Communicating design", "group": "책" },
+    { "id": "(누구나 한번쯤) 철학을 생각한다", "group": "책" },
+    { "id": "글로벌 매너", "group": "책" },
+    { "id": "영화 기호학", "group": "책" },
+    { "id": "영화 그 기호학적 해석의 즐거움", "group": "책" },
+    { "id": "(The)layout book", "group": "책" },
+    { "id": "영화분석과 기호학", "group": "책" },
+    { "id": "상상적 기표", "group": "책" },
+    { "id": "서사철학", "group": "책" },
+    { "id": "세계 60개국 비즈니스 사전", "group": "책" },
+    { "id": "사용자 경험 스케치", "group": "책" },
+    { "id": "멘탈모델", "group": "책" },
+    { "id": "An introduction to digital multimedia", "group": "책" },
+    { "id": "인포메이션 아키텍처", "group": "책" },
+    { "id": "플루타르코스 영웅전", "group": "책" },
+    { "id": "커뮤니케이션 디자인 리포트", "group": "책" },
+    { "id": "무조건 팔아라", "group": "책" },
+    { "id": "(게임프로그래머를 위한) 자료구조와 알고리즘", "group": "책" },
+    { "id": "(시작하세요!) Unity3D 게임 프로그래밍", "group": "책" },
+    { "id": "(책상 위의) 자바스크립트", "group": "책" },
+    { "id": "주역강의", "group": "책" },
+    { "id": "OpenCV 2를 활용한 컴퓨터 비전 프로그래밍", "group": "책" },
+    {
+      "id": "Beginning kinect programming with the microsoft kinect SDK",
+      "group": "책"
+    },
+    { "id": "(이제 시작이야!) 키넥트 프로그래밍", "group": "책" },
+    { "id": "슈슈", "group": "책" },
+    { "id": "센차터치 2+ 폰갭 프로그래밍", "group": "책" },
+    { "id": "HTML5 캔버스 완벽 가이드", "group": "책" },
+    { "id": "디자이너를 위한 액션스크립트 3.0", "group": "책" },
+    { "id": "프로그래밍 수련법", "group": "책" },
+    { "id": "영어의 절반은 동사다", "group": "책" },
+    { "id": "경영의 진화", "group": "책" },
+    { "id": "(2011) 트렌드 키워드", "group": "책" },
+    { "id": "SPSS 설문지 조사 방법", "group": "책" },
+    { "id": "게임이론의 사고법", "group": "책" },
+    { "id": "토파즈 파니  -", "group": "책" },
+    { "id": "다윈의 식탁", "group": "책" },
+    { "id": "우리 까페나 할까?", "group": "책" },
+    { "id": "대머리 여가수", "group": "책" },
+    { "id": "셸 스크립트", "group": "책" },
+    {
+      "id": "(초보자에게 꼭! 필요한 내용만을 수록한) 플래시 CS4",
+      "group": "책"
+    },
+    { "id": "르 시드", "group": "책" },
+    { "id": "(오석태의) 악마는 프라다를 입는다", "group": "책" },
+    { "id": "(기획에서 마케팅까지) 디자인에 집중하라", "group": "책" },
+    { "id": "(Disney) Alice in wonderland", "group": "책" },
+    { "id": "로고 디자인 러브", "group": "책" },
+    { "id": "맥킨지 문제해결의 이론", "group": "책" },
+    { "id": "애플과 삼성은 어떻게 디자인 기업이 되었나", "group": "책" },
+    { "id": "스토리텔링으로 보는 콘텐츠 기획", "group": "책" },
+    { "id": "(그림으로 그리는) 생각정리 기술", "group": "책" },
+    { "id": "크리에이티노베이션", "group": "책" },
+    { "id": "프로토타이핑", "group": "책" },
+    { "id": "권력자들", "group": "책" },
+    { "id": "(디자인이 반짝하는 순간) 글리머", "group": "책" },
+    { "id": "플래시 게임 마스터", "group": "책" },
+    { "id": "맥킨지식 사고와 기술", "group": "책" },
+    { "id": "자바 성능을 결정짓는 코딩 습관과 튜닝 이야기", "group": "책" },
+    { "id": "지능의 사생활", "group": "책" },
+    { "id": "우연을 길들이다", "group": "책" },
+    { "id": "(쉽게 따라하는) 자바 웹 개발", "group": "책" },
+    { "id": "머신러닝 인 액션", "group": "책" },
+    { "id": "데이터가 보인다", "group": "책" },
+    { "id": "What Your First Grader Needs to Know", "group": "책" },
+    { "id": "XML 원리와 응용", "group": "책" },
+    { "id": "(계산모델) 오토마타 및 형식언어", "group": "책" },
+    { "id": "(새로운) 확률의 이해", "group": "책" },
+    { "id": "돈 버는 경제학", "group": "책" },
+    { "id": "현영의 재테크 다이어리", "group": "책" },
+    { "id": "(이훈영 교수의) 통계학", "group": "책" },
+    { "id": "(실무에 빠르게 적용하는) PHP5 무작정 따라하기", "group": "책" },
+    { "id": "(도덕을 위한) 철학 통조림", "group": "책" },
+    { "id": "찰리와 초콜릿 공장", "group": "책" },
+    { "id": "세계 챔피언", "group": "책" },
+    { "id": "안드로이드 플랫폼 포팅과 활용", "group": "책" },
+    { "id": "루커리 정원의 여행자", "group": "책" },
+    { "id": "(후니의 쉽게쓴) 시스코 네트워킹", "group": "책" },
+    { "id": "(실전) XML 데이터베이스 구축", "group": "책" },
+    { "id": "부채인간", "group": "책" },
+    { "id": "열여덟을 위한 철학 캠프", "group": "책" },
+    { "id": "예술경영", "group": "책" },
+    { "id": "(navyism의) PHP 초보 탈출 이야기", "group": "책" },
+    { "id": "中國의 公과 私", "group": "책" },
+    { "id": "뉴캐피털리즘", "group": "책" },
+    { "id": "침묵", "group": "책" },
+    { "id": "(GTQ 12급)포토샵 CS2", "group": "책" },
+    { "id": "(2012) 신춘문예 당선소설집", "group": "책" },
+    { "id": "청춘을 위한 철학에세이", "group": "책" },
+    { "id": "사생활의 천재들", "group": "책" },
+    { "id": "닫힌 방", "group": "책" },
+    { "id": "웰컴 투 더 하루키 월드", "group": "책" },
+    {
+      "id": "(필요할 때마다 골라 쓰는) 프레젠테이션 design collection 100",
+      "group": "책"
+    },
+    { "id": "긍정의 힘", "group": "책" },
+    { "id": "그리운 메이 아줌마", "group": "책" },
+    { "id": "브랜드를 죽이는 살리는 디자인", "group": "책" },
+    { "id": "스웨덴", "group": "책" },
+    { "id": "철학이 나를 위로한다", "group": "책" },
+    { "id": "우리가 사랑에 빠졌을 때", "group": "책" },
+    { "id": "문근영은 위험해", "group": "책" },
+    { "id": "왜 그녀들은 해외 취업을 선택했을까", "group": "책" },
+    { "id": "마르크스와 함께 A학점을", "group": "책" },
+    { "id": "(세상을 바꾼) 미디어", "group": "책" },
+    { "id": "세상을 여행하는 초심자를 위한 안내서", "group": "책" },
+    { "id": "지겹지 않니 청춘 노릇", "group": "책" },
+    { "id": "친구 사이", "group": "책" },
+    { "id": "적게 소유하며 살기", "group": "책" },
+    { "id": "나는 마당 있는 작은 집에 산다", "group": "책" },
+    { "id": "(제품 디자인을 위한) 3ds Max 8.x", "group": "책" },
+    { "id": "처음 만난 다섯 남녀가 유럽에 갔다", "group": "책" },
+    { "id": "빠쓰정류장", "group": "책" },
+    { "id": "(2.0세대를 위한 상상)나는 미디어다", "group": "책" },
+    { "id": "모두 다 예쁜 말들", "group": "책" },
+    { "id": "(기초부터 모바일까지) 자바 프로그래밍", "group": "책" },
+    { "id": "TCP/IP 네트워크 및 프로그래밍", "group": "책" },
+    { "id": "ITQ 엑셀 특별대비", "group": "책" },
+    { "id": "(쉽게 배우는) 자료구조", "group": "책" },
+    {
+      "id": "(동적 홈페이지 제작을 위한) 자바스크립트 쉽고 빠르게",
+      "group": "책"
+    },
+    { "id": "ERP 교재", "group": "책" },
+    { "id": "운동생리학", "group": "책" },
+    { "id": "뇌를 자극하는 SQL server 2008", "group": "책" },
+    { "id": "라면으로 요리한 과학", "group": "책" },
+    { "id": "(혼자 배우는) 산악자전거", "group": "책" },
+    { "id": "(자전거가 좋다) 로드 사이클링", "group": "책" },
+    { "id": "1％의 희망", "group": "책" },
+    { "id": "오라클 데이터베이스 모델링", "group": "책" },
+    { "id": "아더 왕 이야기", "group": "책" },
+    { "id": "지식경영", "group": "책" },
+    { "id": "(자동화를 위한) 시퀀스 제어와 PLC 응용", "group": "책" },
+    { "id": "인간과 컴퓨터의 상호작용", "group": "책" },
+    { "id": "이것은 자전거 이야기가 아닙니다", "group": "책" },
+    { "id": "(뇌를 자극하는) ASP.NET 2.0", "group": "책" },
+    { "id": "(누구나 간단히!) 로드바이크 입문", "group": "책" },
+    { "id": "(쉽게배우는) MySQL 5.X", "group": "책" },
+    {
+      "id": "(초보자도 쉽게 배우는) 데이터베이스와 한글 MS-SQL server",
+      "group": "책"
+    },
+    { "id": "Human-computer interaction", "group": "책" },
+    { "id": "밤의 도서관", "group": "책" },
+    { "id": "시마노 이야기", "group": "책" },
+    { "id": "1일 2식", "group": "책" },
+    { "id": "미술해부학", "group": "책" },
+    { "id": "Designing with type", "group": "책" },
+    { "id": "만남이 쉽다 데이트가 즐겁다", "group": "책" },
+    { "id": "(그림 멘토 버트 도드슨의) 드로잉 수업", "group": "책" },
+    { "id": "인체 드로잉 ＆ 해부학  -", "group": "책" },
+    { "id": "Andrew Rollings and Ernest Adams on game design", "group": "책" },
+    { "id": "(초보자를 위한) 프로그래밍 입문", "group": "책" },
+    { "id": "20세기 디자인", "group": "책" },
+    { "id": "Computer graphics tutorial", "group": "책" },
+    { "id": "홀로그래피", "group": "책" },
+    { "id": "파동의 모험", "group": "책" },
+    { "id": "프로그래머의 길 멘토에게 묻다", "group": "책" },
+    { "id": "그림 자연스럽게 그리기", "group": "책" },
+    { "id": "좋은 디자인을 만드는 33가지 서체 이야기", "group": "책" },
+    { "id": "감성 디자인", "group": "책" },
+    { "id": "C++ 자료구조", "group": "책" },
+    { "id": "창의 논리학 방패의 논리학", "group": "책" },
+    { "id": "Head first C", "group": "책" },
+    { "id": "세월의 돌", "group": "책" },
+    { "id": "연애 심리학에 길을 묻다", "group": "책" },
+    { "id": "그림을 본다는 것", "group": "책" },
+    { "id": "철학 한입", "group": "책" },
+    { "id": "미학자가 그려보는 인문도시", "group": "책" },
+    { "id": "(고객의 마음을 사로잡는) 웹 심리학", "group": "책" },
+    { "id": "공간 장소 경계", "group": "책" },
+    { "id": "아리스토텔레스의『시학』연구", "group": "책" },
+    { "id": "인문으로 통찰하고 감성으로 통합하라", "group": "책" },
+    { "id": "리츄얼", "group": "책" },
+    { "id": "삶이 그림을 만날 때", "group": "책" },
+    { "id": "iPhone SDK 튜토리얼", "group": "책" },
+    { "id": "Casual game design", "group": "책" },
+    { "id": "Gamification & 소셜게임", "group": "책" },
+    { "id": "코코스2d 게임 프로그래밍", "group": "책" },
+    { "id": "컨셉을 잡아라", "group": "책" },
+    { "id": "고흐", "group": "책" },
+    { "id": "서양문화사강의", "group": "책" },
+    { "id": "일본 문화론의 변용", "group": "책" },
+    { "id": "아킨도", "group": "책" },
+    { "id": "스페인 문화의 이해", "group": "책" },
+    { "id": "(한 권으로 보는) 스페인 역사", "group": "책" },
+    { "id": "(경주지역 왕릉 현장기행) 신라왕릉", "group": "책" },
+    { "id": "조선건축사 (I)", "group": "책" },
+    { "id": "존재와 언어", "group": "책" },
+    {
+      "id": "The strange case of Dr. Jekyll and Mr. Hyde and other famous tales",
+      "group": "책"
+    },
+    { "id": "고대로부터의 통신", "group": "책" },
+    { "id": "반 고흐 죽음의 비밀 -", "group": "책" },
+    { "id": "中國近現代史", "group": "책" },
+    { "id": "(역사 속의) 베트남 전쟁", "group": "책" },
+    { "id": "중국역사의 이해", "group": "책" },
+    { "id": "(일본 속의 백제) 나라", "group": "책" },
+    { "id": "그리스 性 풍속사", "group": "책" },
+    { "id": "반 고흐 효과", "group": "책" },
+    { "id": "일본문화사", "group": "책" },
+    { "id": "나는 태국에서 세상을 배웠다", "group": "책" },
+    { "id": "반 고흐 사랑과 광기의 나날", "group": "책" },
+    { "id": "백제에서 건너간 일본천황", "group": "책" },
+    { "id": "새로 쓴 일본사", "group": "책" },
+    { "id": "VLSI technology", "group": "책" },
+    { "id": "자동차재료", "group": "책" },
+    { "id": "한미 FTA 국민보고서", "group": "책" },
+    { "id": "인생에 쉼표가 필요할 때", "group": "책" },
+    { "id": "런던 하늘 맑음", "group": "책" },
+    { "id": "(녹색문화도시) 프라이부르크 읽기", "group": "책" },
+    { "id": "자동차 가솔린 엔진", "group": "책" },
+    { "id": "옛날 영화를 보러 갔다", "group": "책" },
+    { "id": "(PRO/II With PROVISON을 이용한) 화학공정의 모사", "group": "책" },
+    { "id": "(상식으로 꼭 알아야 할) 미국의 역사", "group": "책" },
+    { "id": "러시 라이프", "group": "책" },
+    { "id": "낯선 식민지 한미 FTA", "group": "책" },
+    { "id": "냉동공학", "group": "책" },
+    { "id": "파리의 장소들", "group": "책" },
+    { "id": "초고집적 공정기술", "group": "책" },
+    { "id": "워킹 걸 워즈", "group": "책" },
+    { "id": "아시아 자유무역론", "group": "책" },
+    { "id": "Paris travel note", "group": "책" },
+    { "id": "아이 러브 런던", "group": "책" },
+    { "id": "애별", "group": "책" },
+    { "id": "베이커리 남자", "group": "책" },
+    { "id": "환경 수도 프라이부르크에서 배운다", "group": "책" },
+    { "id": "그림 눈물을 닦다", "group": "책" },
+    { "id": "(만들면서 배우는) 워드프레스 교과서", "group": "책" },
+    { "id": "워드프레스 제대로 파기", "group": "책" },
+    { "id": "Processing", "group": "책" },
+    { "id": "(예제로 배우는) R 프로그래밍", "group": "책" },
+    { "id": "(프로그래밍 첫 경험) 야금야금 프로세싱", "group": "책" },
+    { "id": "프로 Git", "group": "책" },
+    { "id": "WebGL 개발 입문", "group": "책" },
+    { "id": "리얼-타임 렌더링", "group": "책" },
+    { "id": "프리미어 프로 CS3", "group": "책" },
+    { "id": "누가 우리의 밥상을 지배하는가", "group": "책" },
+    { "id": "Introduction to algorithms", "group": "책" },
+    { "id": "리눅스*그냥 재미로", "group": "책" },
+    { "id": "Head first Python", "group": "책" },
+    { "id": "리눅스 서버관리 실무 바이블 3.0", "group": "책" },
+    { "id": "모바일 웹앱", "group": "책" },
+    { "id": "센차터치 2", "group": "책" },
+    {
+      "id": "(활용 데이터 아키텍처 구축을 위한)데이터 모델링 이론 및 실습",
+      "group": "책"
+    },
+    {
+      "id": "(웹 프로그래머를 위한) 데이터베이스를 지탱하는 기술",
+      "group": "책"
+    },
+    {
+      "id": "(우분투 환경에서) C 언어로 배우는 리눅스 프로그래밍",
+      "group": "책"
+    },
+    { "id": "안드로이드 NDK 프로그래밍", "group": "책" },
+    { "id": "근대사회 경제사상의 탐구", "group": "책" },
+    { "id": "이슬람 우리는 무엇을 알고 있나？", "group": "책" },
+    { "id": "한국인들이 이슬람에 대해 궁금해 하는 33가지", "group": "책" },
+    { "id": "이슬람의 이해", "group": "책" },
+    { "id": "근대세계체제", "group": "책" },
+    { "id": "완전불어", "group": "책" },
+    { "id": "Word smart", "group": "책" },
+    { "id": "프랑스어 입문", "group": "책" },
+    { "id": "(대학) 프랑스어 문법", "group": "책" },
+    { "id": "프랑스 기초어휘", "group": "책" },
+    { "id": "(최신) 프랑스어 독해", "group": "책" },
+    { "id": "독일어 급하신 분을 위한 표현백서", "group": "책" },
+    { "id": "세계 프랑스어권 지역연구", "group": "책" },
+    { "id": "프랑스어 문법", "group": "책" },
+    {
+      "id": "프랑스 네이티브가 가장 많이 쓰는 프랑스어 표현 Best",
+      "group": "책"
+    },
+    { "id": "성경이야기", "group": "책" },
+    { "id": "프랑스어 작문", "group": "책" },
+    { "id": "DELF B1", "group": "책" },
+    { "id": "삼매경", "group": "책" },
+    { "id": "100% 프랑스인", "group": "책" },
+    { "id": "프랑스 사회와 문화", "group": "책" },
+    { "id": "개발 없는 개발", "group": "책" },
+    { "id": "빌 브라이슨 발칙한 유럽 산책", "group": "책" },
+    { "id": "유럽 연합의 이해", "group": "책" },
+    { "id": "거의 모든 사생활의 역사", "group": "책" },
+    { "id": "패러독스 논리학", "group": "책" },
+    { "id": "서박사 SSAT 삼성그룹 직무적성검사", "group": "책" },
+    { "id": "감성의 분할", "group": "책" },
+    { "id": "한국 사람들", "group": "책" },
+    { "id": "몰리에르 희곡선", "group": "책" },
+    { "id": "쎄느강은 좌우를 나누고 한강은 남북을 가른다", "group": "책" },
+    { "id": "보바리의 남자 오셀로의 여자", "group": "책" },
+    { "id": "구토", "group": "책" },
+    { "id": "검은 피부 하얀 가면", "group": "책" },
+    { "id": "탐욕의 시대", "group": "책" },
+    { "id": "Belleville", "group": "책" },
+    { "id": "유럽의 부활", "group": "책" },
+    { "id": "Real Paris", "group": "책" },
+    { "id": "파리를 생각한다", "group": "책" },
+    { "id": "(세상과 소통을 꿈꾸는) 아스퍼거 증후군 아이들", "group": "책" },
+    { "id": "별종 괴짜 그리고 아스퍼거 증후군", "group": "책" },
+    { "id": "(2007) PSAT Leader -", "group": "책" },
+    { "id": "유럽낭만 탐닉", "group": "책" },
+    { "id": "(폴로 왕국의 제왕) 랄프 로렌 스토리", "group": "책" },
+    { "id": "친절한 북유럽", "group": "책" },
+    { "id": "디자이너의 스케치북", "group": "책" },
+    { "id": "이것이 문화비평이다", "group": "책" },
+    { "id": "더 테이블", "group": "책" },
+    { "id": "(네이버 오픈마켓 나만의 쇼핑몰) 샵N 만들기", "group": "책" },
+    { "id": "(1%의 숨은 고객도 사로잡는) 소셜 마케팅", "group": "책" },
+    {
+      "id": "(상위 노출 전략! 파워블로거의) 돈 버는 실전 블로그 마케팅",
+      "group": "책"
+    },
+    { "id": "DELF B2", "group": "책" },
+    { "id": "왜 팔리는가", "group": "책" },
+    { "id": "BoP 비즈니스 지속적인 기업 성장의 마지막 기회", "group": "책" },
+    { "id": "(현명한 선택을 이끄는 부드러운 개입) 심플러", "group": "책" }
+  ],
+  "links": [
+    {
+      "source": "AJ1107417",
+      "target": "(전병선의) 객체지향 이야기",
+      "value": 1
+    },
+    { "source": "AJ1107417", "target": "통계학입문", "value": 1 },
+    {
+      "source": "AJ1107417",
+      "target": "(우리가 몰랐던) 우리 역사(歷史)",
+      "value": 1
+    },
+    {
+      "source": "AJ1107417",
+      "target": "(Excel로 풀어본) 확률 및 통계학",
+      "value": 1
+    },
+    {
+      "source": "AJ1107417",
+      "target": "데이타 通信 및 컴퓨터通信  -",
+      "value": 1
+    },
+    { "source": "AJ1107417", "target": "(알기쉬운) 통계학", "value": 1 },
+    {
+      "source": "AJ1107417",
+      "target": "프로그래밍 콘테스트 챌린징",
+      "value": 1
+    },
+    { "source": "AJ1107417", "target": "(임종수의) Simulink 7", "value": 1 },
+    { "source": "AJ1107417", "target": "프로그래머로 산다는 것", "value": 1 },
+    {
+      "source": "AJ1100426",
+      "target": "(전병선의) 객체지향 이야기",
+      "value": 1
+    },
+    { "source": "AJ1100426", "target": "Programing Amazon EC2", "value": 1 },
+    { "source": "AJ1100426", "target": "플랫폼이란 무엇인가?", "value": 1 },
+    { "source": "AJ1100426", "target": "세븐 데이터베이스", "value": 1 },
+    { "source": "AJ1100426", "target": "소설 이천년대", "value": 1 },
+    { "source": "AJ1100426", "target": "예고된 죽음의 연대기", "value": 1 },
+    { "source": "AJ1100426", "target": "게임소재로서의 동양신화", "value": 1 },
+    {
+      "source": "AJ1100426",
+      "target": "Keynote guide book for macintosh & iPad",
+      "value": 1
+    },
+    { "source": "AJ1100426", "target": "JQUERY Novice to ninja", "value": 1 },
+    { "source": "AJ1100426", "target": "(The)street book", "value": 1 },
+    { "source": "AJ1100426", "target": "MongoDB 완벽 가이드", "value": 1 },
+    {
+      "source": "AJ1100426",
+      "target": "(100만 방문자와 소통하는) 페이스북 페이지 만들기",
+      "value": 1
+    },
+    { "source": "AJ1100426", "target": "감정의 인문학", "value": 1 },
+    {
+      "source": "AJ1101679",
+      "target": "(전병선의) 객체지향 이야기",
+      "value": 1
+    },
+    { "source": "AJ1101679", "target": "디자이너의 문화 읽기", "value": 1 },
+    { "source": "AJ1101679", "target": "웹디자인 2.0 고급 CSS", "value": 1 },
+    { "source": "AJ1101679", "target": "우디 앨런", "value": 1 },
+    { "source": "AJ1101679", "target": "살인중독", "value": 1 },
+    { "source": "AJ1101679", "target": "그리드를 넘어서", "value": 1 },
+    {
+      "source": "AJ1101679",
+      "target": "(더글라스 크락포드의) 자바스크립트 핵심 가이드",
+      "value": 1
+    },
+    {
+      "source": "AJ1101679",
+      "target": "(크리에이티브 디자이너를 위한) 웹표준",
+      "value": 1
+    },
+    {
+      "source": "AJ1101679",
+      "target": "(거침없이 배우는) 자바 스크립트",
+      "value": 1
+    },
+    { "source": "AJ1101679", "target": "게이미피케이션", "value": 1 },
+    {
+      "source": "AJ1101679",
+      "target": "인류학 민족지 연구 어떻게 할 것인가",
+      "value": 1
+    },
+    {
+      "source": "AJ1101679",
+      "target": "(Do it!) 워드프레스 웹사이트 만들기",
+      "value": 1
+    },
+    { "source": "AJ1101679", "target": "(Le) nouveau DELF B2", "value": 1 },
+    { "source": "AJ1105277", "target": "자료 구조와 C", "value": 1 },
+    {
+      "source": "AJ1105277",
+      "target": "(전병선의) 객체지향 이야기",
+      "value": 1
+    },
+    {
+      "source": "AJ1105277",
+      "target": "(김대균의) 토익 공식 2000 -",
+      "value": 1
+    },
+    { "source": "AJ1105277", "target": "손에 잡히는 Vim", "value": 1 },
+    {
+      "source": "AJ1105277",
+      "target": "윈도우 네트워크 프로그래밍",
+      "value": 1
+    },
+    {
+      "source": "AJ1105277",
+      "target": "(다시 체계적으로 배우는) C언어 포인터",
+      "value": 1
+    },
+    {
+      "source": "AJ1105277",
+      "target": "삼성 SSAT workshop 직무적성검사",
+      "value": 1
+    },
+    {
+      "source": "AJ1105277",
+      "target": "(초보자를 위한) Linux & unix C 프로그래밍",
+      "value": 1
+    },
+    {
+      "source": "AJ1105277",
+      "target": "C 배열과 포인터 그리고 자료구조",
+      "value": 1
+    },
+    { "source": "AJ1105277", "target": "Ubuntu Linux toolbox", "value": 1 },
+    { "source": "AJ1105277", "target": "C 자료구조 입문", "value": 1 },
+    {
+      "source": "AJ1105277",
+      "target": "(친절한 김샘의) 함수 포인터 강의",
+      "value": 1
+    },
+    { "source": "AJ1105277", "target": "조선 왕을 말하다", "value": 1 },
+    { "source": "AJ1105277", "target": "존재하는 신", "value": 1 },
+    {
+      "source": "AJ1105277",
+      "target": "구글러가 전하는 IT 취업 가이드",
+      "value": 1
+    },
+    {
+      "source": "AJ1105277",
+      "target": "PC 조립 하드웨어 무작정 따라하기",
+      "value": 1
+    },
+    { "source": "AJ1101955", "target": "J이야기", "value": 1 },
+    {
+      "source": "AJ1101955",
+      "target": "(전병선의) 객체지향 이야기",
+      "value": 1
+    },
+    { "source": "AJ1101955", "target": "이보영의 113 스피킹 해빗", "value": 1 },
+    {
+      "source": "AJ1101955",
+      "target": "(불안하지만 설레는 순간) 스물아홉 서툴지만 괜찮은",
+      "value": 1
+    },
+    { "source": "AJ1101955", "target": "사양", "value": 1 },
+    { "source": "AJ1101955", "target": "아즈텍과 마야 신화", "value": 1 },
+    {
+      "source": "AJ1101955",
+      "target": "(이보영의 Twentys's) life style English",
+      "value": 1
+    },
+    { "source": "AJ1101955", "target": "엑또르 씨의 시간 여행", "value": 1 },
+    { "source": "AJ1101955", "target": "착한 여자", "value": 1 },
+    { "source": "AJ1101955", "target": "꿈보다 열정", "value": 1 },
+    { "source": "AJ1101955", "target": "나의 다정한 그림", "value": 1 },
+    { "source": "AJ1101955", "target": "해뜨기 전이 가장 어둡다", "value": 1 },
+    { "source": "AJ1101955", "target": "청혼", "value": 1 },
+    { "source": "AJ1101955", "target": "지금 이순간을 기억해", "value": 1 },
+    { "source": "AJ1102069", "target": "이영도 판타지 단편집", "value": 1 },
+    {
+      "source": "AJ1102069",
+      "target": "(전병선의) 객체지향 이야기",
+      "value": 1
+    },
+    { "source": "AJ1102069", "target": "일러스트레이터 필살기", "value": 1 },
+    {
+      "source": "AJ1102069",
+      "target": "(출발에서 도착까지 꼼꼼하게 알려주는) 친절한 여행책",
+      "value": 1
+    },
+    { "source": "AJ1102069", "target": "써먹는 심리학", "value": 1 },
+    { "source": "AJ1102069", "target": "명랑 소녀 인도를 삼키다", "value": 1 },
+    { "source": "AJ1102069", "target": "(이번엔!) 제주", "value": 1 },
+    { "source": "AJ1102069", "target": "부처의 말", "value": 1 },
+    {
+      "source": "AJ1102069",
+      "target": "(예제가 가득한) 일러스트레이터 CS3",
+      "value": 1
+    },
+    { "source": "AJ1102069", "target": "(Insight Guides) 터키", "value": 1 },
+    { "source": "AJ1102069", "target": "안녕 D", "value": 1 },
+    { "source": "AJ1102069", "target": "러브 토크", "value": 1 },
+    { "source": "AJ1102069", "target": "(김영민의) 공부론", "value": 1 },
+    { "source": "AJ1102069", "target": "대한민국 마을여행", "value": 1 },
+    { "source": "AJ1102069", "target": "스마트 시대 핫 트렌드 33", "value": 1 },
+    { "source": "AJ1102069", "target": "옳다고 생각하면 행동하라", "value": 1 },
+    { "source": "AJ1102069", "target": "현문우답", "value": 1 },
+    {
+      "source": "AJ1102069",
+      "target": "(세상에서 가장 영향력 있는) 50인의 디자인",
+      "value": 1
+    },
+    {
+      "source": "AJ1100139",
+      "target": "리눅스 커널 2.6 구조와 원리",
+      "value": 1
+    },
+    {
+      "source": "AJ1100139",
+      "target": "아이폰 UI 디자인 프로젝트",
+      "value": 1
+    },
+    { "source": "AJ1100139", "target": "웹디자인 2.0 고급 CSS", "value": 1 },
+    {
+      "source": "AJ1100139",
+      "target": "시스템 소프트웨어와 리눅스 프로그래밍",
+      "value": 1
+    },
+    {
+      "source": "AJ1100139",
+      "target": "TCP/IP 소켓 프로그래밍 C# 버전",
+      "value": 1
+    },
+    {
+      "source": "AJ1100139",
+      "target": "(따라하고 싶은 달콤한 유혹) 플래시 내비게이션 제작 테크닉",
+      "value": 1
+    },
+    {
+      "source": "AJ1100139",
+      "target": "아이폰 SDK 애플리케이션 개발",
+      "value": 1
+    },
+    { "source": "AJ1100139", "target": "CSS 비밀 매뉴얼", "value": 1 },
+    {
+      "source": "AJ1100139",
+      "target": "(애플 휴먼 인터페이스 가이드라인을 알기 쉽게 풀어쓴) 아이폰 UX 프로그래밍",
+      "value": 1
+    },
+    {
+      "source": "AJ1100139",
+      "target": "(실습으로 배우는) 객체지향 프로그래밍",
+      "value": 1
+    },
+    { "source": "AJ1100018", "target": "안녕 뉴욕", "value": 1 },
+    { "source": "AJ1100018", "target": "영화", "value": 1 },
+    { "source": "AJ1100018", "target": "트렌드를 읽는 기술", "value": 1 },
+    { "source": "AJ1100018", "target": "맑스를 읽자", "value": 1 },
+    { "source": "AJ1100018", "target": "명품 마케팅", "value": 1 },
+    { "source": "AJ1100018", "target": "우디 앨런", "value": 1 },
+    {
+      "source": "AJ1100018",
+      "target": "맥킨지는 일하는 방식이 다르다",
+      "value": 1
+    },
+    { "source": "AJ1100018", "target": "경영·경제·인생 강좌 45편", "value": 1 },
+    {
+      "source": "AJ1100018",
+      "target": "엑셀 함수 활용 콘사이스 145",
+      "value": 1
+    },
+    {
+      "source": "AJ1100018",
+      "target": "칼리 피오리나 힘든 선택들",
+      "value": 1
+    },
+    { "source": "AJ1100018", "target": "유니크로 방식", "value": 1 },
+    {
+      "source": "AJ1100018",
+      "target": "(마빈 바우어) 맥킨지의 모든것",
+      "value": 1
+    },
+    {
+      "source": "AJ1100018",
+      "target": "(필립 코틀러의) social marketing",
+      "value": 1
+    },
+    {
+      "source": "AJ1100018",
+      "target": "맥킨지는 일하는 마인드가 다르다",
+      "value": 1
+    },
+    {
+      "source": "AJ1100018",
+      "target": "(청소년을 위한) 연암 박지원 소설집",
+      "value": 1
+    },
+    { "source": "AJ1103866", "target": "세계의 아트디렉터 10", "value": 1 },
+    {
+      "source": "AJ1103866",
+      "target": "사막을 건너야 서른이 온다",
+      "value": 1
+    },
+    { "source": "AJ1103866", "target": "그리드 디자인 어드밴스", "value": 1 },
+    { "source": "AJ1103866", "target": "기호학이란 무엇인가 -", "value": 1 },
+    { "source": "AJ1103866", "target": "그리드를 넘어서", "value": 1 },
+    { "source": "AJ1103866", "target": "살아 있는 우리 신화", "value": 1 },
+    { "source": "AJ1103866", "target": "멀티미디어 교과서", "value": 1 },
+    { "source": "AJ1103866", "target": "자바스크립트 성능 이야기", "value": 1 },
+    { "source": "AJ1103866", "target": "살아야 하는 이유", "value": 1 },
+    { "source": "AJ1103866", "target": "내 인생 후회되는 한 가지", "value": 1 },
+    {
+      "source": "AJ1103866",
+      "target": "NHN 오픈 API를 활용한 매시업",
+      "value": 1
+    },
+    {
+      "source": "AJ1103866",
+      "target": "자바스크립트 UI 개발과 Jindo 프레임워크",
+      "value": 1
+    },
+    {
+      "source": "AJ1103866",
+      "target": "하루 10분 세계사의 오리진을 만나다",
+      "value": 1
+    },
+    { "source": "AJ1103866", "target": "와인 천재가 된 홍대리", "value": 1 },
+    { "source": "AJ1100944", "target": "철학의 즐거움", "value": 1 },
+    { "source": "AJ1100944", "target": "Communicating design", "value": 1 },
+    {
+      "source": "AJ1100944",
+      "target": "(누구나 한번쯤) 철학을 생각한다",
+      "value": 1
+    },
+    { "source": "AJ1100944", "target": "글로벌 매너", "value": 1 },
+    { "source": "AJ1100944", "target": "영화 기호학", "value": 1 },
+    {
+      "source": "AJ1100944",
+      "target": "영화 그 기호학적 해석의 즐거움",
+      "value": 1
+    },
+    { "source": "AJ1100944", "target": "(The)layout book", "value": 1 },
+    { "source": "AJ1100944", "target": "영화분석과 기호학", "value": 1 },
+    { "source": "AJ1100944", "target": "상상적 기표", "value": 1 },
+    { "source": "AJ1100944", "target": "그리드를 넘어서", "value": 1 },
+    { "source": "AJ1100944", "target": "서사철학", "value": 1 },
+    {
+      "source": "AJ1100944",
+      "target": "세계 60개국 비즈니스 사전",
+      "value": 1
+    },
+    { "source": "AJ1100944", "target": "사용자 경험 스케치", "value": 1 },
+    { "source": "AJ1100944", "target": "멘탈모델", "value": 1 },
+    {
+      "source": "AJ1100944",
+      "target": "An introduction to digital multimedia",
+      "value": 1
+    },
+    { "source": "AJ1100944", "target": "인포메이션 아키텍처", "value": 1 },
+    { "source": "AJ1100944", "target": "플루타르코스 영웅전", "value": 1 },
+    {
+      "source": "AJ1100944",
+      "target": "커뮤니케이션 디자인 리포트",
+      "value": 1
+    },
+    { "source": "AJ1100944", "target": "무조건 팔아라", "value": 1 },
+    {
+      "source": "AJ1104630",
+      "target": "(게임프로그래머를 위한) 자료구조와 알고리즘",
+      "value": 1
+    },
+    { "source": "AJ1104630", "target": "그리드를 넘어서", "value": 1 },
+    {
+      "source": "AJ1104630",
+      "target": "(시작하세요!) Unity3D 게임 프로그래밍",
+      "value": 1
+    },
+    { "source": "AJ1107595", "target": "(책상 위의) 자바스크립트", "value": 1 },
+    { "source": "AJ1107595", "target": "주역강의", "value": 1 },
+    {
+      "source": "AJ1107595",
+      "target": "(더글라스 크락포드의) 자바스크립트 핵심 가이드",
+      "value": 1
+    },
+    {
+      "source": "AJ1107595",
+      "target": "OpenCV 2를 활용한 컴퓨터 비전 프로그래밍",
+      "value": 1
+    },
+    {
+      "source": "AJ1107595",
+      "target": "Beginning kinect programming with the microsoft kinect SDK",
+      "value": 1
+    },
+    {
+      "source": "AJ1107595",
+      "target": "(이제 시작이야!) 키넥트 프로그래밍",
+      "value": 1
+    },
+    { "source": "AJ1107595", "target": "프로그래머로 산다는 것", "value": 1 },
+    {
+      "source": "AJ1107238",
+      "target": "(더글라스 크락포드의) 자바스크립트 핵심 가이드",
+      "value": 1
+    },
+    { "source": "AJ1107238", "target": "슈슈", "value": 1 },
+    {
+      "source": "AJ1107238",
+      "target": "센차터치 2+ 폰갭 프로그래밍",
+      "value": 1
+    },
+    { "source": "AJ1107238", "target": "HTML5 캔버스 완벽 가이드", "value": 1 },
+    {
+      "source": "AJ1105619",
+      "target": "디자이너를 위한 액션스크립트 3.0",
+      "value": 1
+    },
+    { "source": "AJ1105619", "target": "프로그래밍 수련법", "value": 1 },
+    { "source": "AJ1105619", "target": "영어의 절반은 동사다", "value": 1 },
+    { "source": "AJ1105619", "target": "경영의 진화", "value": 1 },
+    { "source": "AJ1105619", "target": "(2011) 트렌드 키워드", "value": 1 },
+    { "source": "AJ1105619", "target": "SPSS 설문지 조사 방법", "value": 1 },
+    { "source": "AJ1105619", "target": "게임이론의 사고법", "value": 1 },
+    { "source": "AJ1105619", "target": "토파즈 파니  -", "value": 1 },
+    { "source": "AJ1105619", "target": "다윈의 식탁", "value": 1 },
+    { "source": "AJ1105619", "target": "우리 까페나 할까?", "value": 1 },
+    { "source": "AJ1105619", "target": "대머리 여가수", "value": 1 },
+    { "source": "AJ1105619", "target": "셸 스크립트", "value": 1 },
+    {
+      "source": "AJ1105619",
+      "target": "(초보자에게 꼭! 필요한 내용만을 수록한) 플래시 CS4",
+      "value": 1
+    },
+    { "source": "AJ1105619", "target": "르 시드", "value": 1 },
+    {
+      "source": "AJ1105619",
+      "target": "(오석태의) 악마는 프라다를 입는다",
+      "value": 1
+    },
+    {
+      "source": "AJ1105619",
+      "target": "(기획에서 마케팅까지) 디자인에 집중하라",
+      "value": 1
+    },
+    {
+      "source": "AJ1105619",
+      "target": "(Disney) Alice in wonderland",
+      "value": 1
+    },
+    { "source": "AJ1105619", "target": "로고 디자인 러브", "value": 1 },
+    { "source": "AJ1105619", "target": "맥킨지 문제해결의 이론", "value": 1 },
+    {
+      "source": "AJ1105619",
+      "target": "애플과 삼성은 어떻게 디자인 기업이 되었나",
+      "value": 1
+    },
+    {
+      "source": "AJ1105619",
+      "target": "스토리텔링으로 보는 콘텐츠 기획",
+      "value": 1
+    },
+    {
+      "source": "AJ1105619",
+      "target": "(크리에이티브 디자이너를 위한) 웹표준",
+      "value": 1
+    },
+    {
+      "source": "AJ1105619",
+      "target": "(그림으로 그리는) 생각정리 기술",
+      "value": 1
+    },
+    { "source": "AJ1105619", "target": "크리에이티노베이션", "value": 1 },
+    { "source": "AJ1105619", "target": "프로토타이핑", "value": 1 },
+    { "source": "AJ1105619", "target": "권력자들", "value": 1 },
+    {
+      "source": "AJ1105619",
+      "target": "(디자인이 반짝하는 순간) 글리머",
+      "value": 1
+    },
+    { "source": "AJ1105619", "target": "플래시 게임 마스터", "value": 1 },
+    { "source": "AJ1105619", "target": "맥킨지식 사고와 기술", "value": 1 },
+    {
+      "source": "AJ1105619",
+      "target": "자바 성능을 결정짓는 코딩 습관과 튜닝 이야기",
+      "value": 1
+    },
+    { "source": "AJ1105619", "target": "지능의 사생활", "value": 1 },
+    { "source": "AJ1105619", "target": "우연을 길들이다", "value": 1 },
+    {
+      "source": "AJ1105619",
+      "target": "(쉽게 따라하는) 자바 웹 개발",
+      "value": 1
+    },
+    { "source": "AJ1105619", "target": "머신러닝 인 액션", "value": 1 },
+    { "source": "AJ1105619", "target": "데이터가 보인다", "value": 1 },
+    {
+      "source": "AJ1102738",
+      "target": "What Your First Grader Needs to Know",
+      "value": 1
+    },
+    { "source": "AJ1102738", "target": "XML 원리와 응용", "value": 1 },
+    {
+      "source": "AJ1102738",
+      "target": "(계산모델) 오토마타 및 형식언어",
+      "value": 1
+    },
+    { "source": "AJ1102738", "target": "(새로운) 확률의 이해", "value": 1 },
+    { "source": "AJ1102738", "target": "돈 버는 경제학", "value": 1 },
+    { "source": "AJ1102738", "target": "현영의 재테크 다이어리", "value": 1 },
+    { "source": "AJ1102738", "target": "(이훈영 교수의) 통계학", "value": 1 },
+    {
+      "source": "AJ1102738",
+      "target": "(실무에 빠르게 적용하는) PHP5 무작정 따라하기",
+      "value": 1
+    },
+    {
+      "source": "AJ1102738",
+      "target": "(도덕을 위한) 철학 통조림",
+      "value": 1
+    },
+    { "source": "AJ1102738", "target": "찰리와 초콜릿 공장", "value": 1 },
+    { "source": "AJ1102738", "target": "세계 챔피언", "value": 1 },
+    {
+      "source": "AJ1102738",
+      "target": "안드로이드 플랫폼 포팅과 활용",
+      "value": 1
+    },
+    {
+      "source": "AJ1102738",
+      "target": "(크리에이티브 디자이너를 위한) 웹표준",
+      "value": 1
+    },
+    { "source": "AJ1102738", "target": "루커리 정원의 여행자", "value": 1 },
+    {
+      "source": "AJ1102738",
+      "target": "(후니의 쉽게쓴) 시스코 네트워킹",
+      "value": 1
+    },
+    {
+      "source": "AJ1102738",
+      "target": "(실전) XML 데이터베이스 구축",
+      "value": 1
+    },
+    { "source": "AJ1102738", "target": "부채인간", "value": 1 },
+    { "source": "AJ1102738", "target": "열여덟을 위한 철학 캠프", "value": 1 },
+    { "source": "AJ1109992", "target": "예술경영", "value": 1 },
+    {
+      "source": "AJ1109992",
+      "target": "(navyism의) PHP 초보 탈출 이야기",
+      "value": 1
+    },
+    { "source": "AJ1109992", "target": "中國의 公과 私", "value": 1 },
+    { "source": "AJ1109992", "target": "뉴캐피털리즘", "value": 1 },
+    {
+      "source": "AJ1109992",
+      "target": "(거침없이 배우는) 자바 스크립트",
+      "value": 1
+    },
+    { "source": "AJ1109652", "target": "침묵", "value": 1 },
+    { "source": "AJ1109652", "target": "(GTQ 12급)포토샵 CS2", "value": 1 },
+    {
+      "source": "AJ1109652",
+      "target": "(2012) 신춘문예 당선소설집",
+      "value": 1
+    },
+    { "source": "AJ1109652", "target": "청춘을 위한 철학에세이", "value": 1 },
+    { "source": "AJ1109652", "target": "사생활의 천재들", "value": 1 },
+    { "source": "AJ1109652", "target": "닫힌 방", "value": 1 },
+    { "source": "AJ1109652", "target": "웰컴 투 더 하루키 월드", "value": 1 },
+    {
+      "source": "AJ1109652",
+      "target": "(필요할 때마다 골라 쓰는) 프레젠테이션 design collection 100",
+      "value": 1
+    },
+    { "source": "AJ1109652", "target": "긍정의 힘", "value": 1 },
+    { "source": "AJ1109652", "target": "그리운 메이 아줌마", "value": 1 },
+    {
+      "source": "AJ1109652",
+      "target": "브랜드를 죽이는 살리는 디자인",
+      "value": 1
+    },
+    { "source": "AJ1109652", "target": "스웨덴", "value": 1 },
+    { "source": "AJ1109652", "target": "철학이 나를 위로한다", "value": 1 },
+    {
+      "source": "AJ1109652",
+      "target": "(거침없이 배우는) 자바 스크립트",
+      "value": 1
+    },
+    { "source": "AJ1109652", "target": "우리가 사랑에 빠졌을 때", "value": 1 },
+    { "source": "AJ1109652", "target": "문근영은 위험해", "value": 1 },
+    {
+      "source": "AJ1109652",
+      "target": "왜 그녀들은 해외 취업을 선택했을까",
+      "value": 1
+    },
+    { "source": "AJ1109652", "target": "마르크스와 함께 A학점을", "value": 1 },
+    { "source": "AJ1109652", "target": "(세상을 바꾼) 미디어", "value": 1 },
+    {
+      "source": "AJ1109652",
+      "target": "세상을 여행하는 초심자를 위한 안내서",
+      "value": 1
+    },
+    { "source": "AJ1109652", "target": "지겹지 않니 청춘 노릇", "value": 1 },
+    { "source": "AJ1109652", "target": "친구 사이", "value": 1 },
+    { "source": "AJ1109652", "target": "적게 소유하며 살기", "value": 1 },
+    {
+      "source": "AJ1109652",
+      "target": "나는 마당 있는 작은 집에 산다",
+      "value": 1
+    },
+    {
+      "source": "AJ1102572",
+      "target": "(제품 디자인을 위한) 3ds Max 8.x",
+      "value": 1
+    },
+    {
+      "source": "AJ1102572",
+      "target": "처음 만난 다섯 남녀가 유럽에 갔다",
+      "value": 1
+    },
+    { "source": "AJ1102572", "target": "빠쓰정류장", "value": 1 },
+    {
+      "source": "AJ1102572",
+      "target": "(2.0세대를 위한 상상)나는 미디어다",
+      "value": 1
+    },
+    { "source": "AJ1102572", "target": "모두 다 예쁜 말들", "value": 1 },
+    {
+      "source": "AJ1102572",
+      "target": "(기초부터 모바일까지) 자바 프로그래밍",
+      "value": 1
+    },
+    {
+      "source": "AJ1102572",
+      "target": "TCP/IP 네트워크 및 프로그래밍",
+      "value": 1
+    },
+    { "source": "AJ1102572", "target": "ITQ 엑셀 특별대비", "value": 1 },
+    {
+      "source": "AJ1102572",
+      "target": "(거침없이 배우는) 자바 스크립트",
+      "value": 1
+    },
+    { "source": "AJ1102732", "target": "(쉽게 배우는) 자료구조", "value": 1 },
+    {
+      "source": "AJ1102732",
+      "target": "(친절한 김샘의) 함수 포인터 강의",
+      "value": 1
+    },
+    {
+      "source": "AJ1102732",
+      "target": "(기초부터 모바일까지) 자바 프로그래밍",
+      "value": 1
+    },
+    {
+      "source": "AJ1102732",
+      "target": "(동적 홈페이지 제작을 위한) 자바스크립트 쉽고 빠르게",
+      "value": 1
+    },
+    {
+      "source": "AJ1102732",
+      "target": "(거침없이 배우는) 자바 스크립트",
+      "value": 1
+    },
+    { "source": "AJ1100128", "target": "ERP 교재", "value": 1 },
+    { "source": "AJ1100128", "target": "운동생리학", "value": 1 },
+    { "source": "AJ1100128", "target": "운동생리학", "value": 1 },
+    {
+      "source": "AJ1100128",
+      "target": "뇌를 자극하는 SQL server 2008",
+      "value": 1
+    },
+    { "source": "AJ1100128", "target": "라면으로 요리한 과학", "value": 1 },
+    { "source": "AJ1100128", "target": "(혼자 배우는) 산악자전거", "value": 1 },
+    {
+      "source": "AJ1100128",
+      "target": "(자전거가 좋다) 로드 사이클링",
+      "value": 1
+    },
+    { "source": "AJ1100128", "target": "1％의 희망", "value": 1 },
+    {
+      "source": "AJ1100128",
+      "target": "오라클 데이터베이스 모델링",
+      "value": 1
+    },
+    { "source": "AJ1100128", "target": "아더 왕 이야기", "value": 1 },
+    { "source": "AJ1100128", "target": "지식경영", "value": 1 },
+    {
+      "source": "AJ1100128",
+      "target": "(자동화를 위한) 시퀀스 제어와 PLC 응용",
+      "value": 1
+    },
+    { "source": "AJ1100128", "target": "인간과 컴퓨터의 상호작용", "value": 1 },
+    {
+      "source": "AJ1100128",
+      "target": "이것은 자전거 이야기가 아닙니다",
+      "value": 1
+    },
+    {
+      "source": "AJ1100128",
+      "target": "(뇌를 자극하는) ASP.NET 2.0",
+      "value": 1
+    },
+    {
+      "source": "AJ1100128",
+      "target": "(누구나 간단히!) 로드바이크 입문",
+      "value": 1
+    },
+    { "source": "AJ1100128", "target": "(쉽게배우는) MySQL 5.X", "value": 1 },
+    {
+      "source": "AJ1100128",
+      "target": "(초보자도 쉽게 배우는) 데이터베이스와 한글 MS-SQL server",
+      "value": 1
+    },
+    {
+      "source": "AJ1100128",
+      "target": "Human-computer interaction",
+      "value": 1
+    },
+    { "source": "AJ1100128", "target": "밤의 도서관", "value": 1 },
+    { "source": "AJ1100128", "target": "시마노 이야기", "value": 1 },
+    {
+      "source": "AJ1100128",
+      "target": "(거침없이 배우는) 자바 스크립트",
+      "value": 1
+    },
+    { "source": "AJ1100128", "target": "1일 2식", "value": 1 },
+    { "source": "AJ1108741", "target": "미술해부학", "value": 1 },
+    { "source": "AJ1108741", "target": "Designing with type", "value": 1 },
+    {
+      "source": "AJ1108741",
+      "target": "만남이 쉽다 데이트가 즐겁다",
+      "value": 1
+    },
+    {
+      "source": "AJ1108741",
+      "target": "(그림 멘토 버트 도드슨의) 드로잉 수업",
+      "value": 1
+    },
+    { "source": "AJ1108741", "target": "인체 드로잉 ＆ 해부학  -", "value": 1 },
+    {
+      "source": "AJ1108741",
+      "target": "Andrew Rollings and Ernest Adams on game design",
+      "value": 1
+    },
+    {
+      "source": "AJ1108741",
+      "target": "(초보자를 위한) 프로그래밍 입문",
+      "value": 1
+    },
+    { "source": "AJ1108741", "target": "20세기 디자인", "value": 1 },
+    {
+      "source": "AJ1108741",
+      "target": "Computer graphics tutorial",
+      "value": 1
+    },
+    { "source": "AJ1108741", "target": "홀로그래피", "value": 1 },
+    { "source": "AJ1108741", "target": "파동의 모험", "value": 1 },
+    {
+      "source": "AJ1108741",
+      "target": "프로그래머의 길 멘토에게 묻다",
+      "value": 1
+    },
+    { "source": "AJ1108741", "target": "그림 자연스럽게 그리기", "value": 1 },
+    {
+      "source": "AJ1108741",
+      "target": "좋은 디자인을 만드는 33가지 서체 이야기",
+      "value": 1
+    },
+    { "source": "AJ1108741", "target": "감성 디자인", "value": 1 },
+    { "source": "AJ1108741", "target": "C++ 자료구조", "value": 1 },
+    { "source": "AJ1108741", "target": "게이미피케이션", "value": 1 },
+    {
+      "source": "AJ1108741",
+      "target": "창의 논리학 방패의 논리학",
+      "value": 1
+    },
+    { "source": "AJ1108741", "target": "Head first C", "value": 1 },
+    { "source": "AJ1108741", "target": "세월의 돌", "value": 1 },
+    { "source": "AJ1107908", "target": "게이미피케이션", "value": 1 },
+    { "source": "AJ1102807", "target": "연애 심리학에 길을 묻다", "value": 1 },
+    { "source": "AJ1102807", "target": "그림을 본다는 것", "value": 1 },
+    { "source": "AJ1102807", "target": "철학 한입", "value": 1 },
+    {
+      "source": "AJ1102807",
+      "target": "미학자가 그려보는 인문도시",
+      "value": 1
+    },
+    {
+      "source": "AJ1102807",
+      "target": "(고객의 마음을 사로잡는) 웹 심리학",
+      "value": 1
+    },
+    { "source": "AJ1102807", "target": "공간 장소 경계", "value": 1 },
+    {
+      "source": "AJ1102807",
+      "target": "아리스토텔레스의『시학』연구",
+      "value": 1
+    },
+    { "source": "AJ1102807", "target": "게이미피케이션", "value": 1 },
+    {
+      "source": "AJ1102807",
+      "target": "인문으로 통찰하고 감성으로 통합하라",
+      "value": 1
+    },
+    { "source": "AJ1102807", "target": "리츄얼", "value": 1 },
+    { "source": "AJ1102807", "target": "삶이 그림을 만날 때", "value": 1 },
+    { "source": "AJ1103839", "target": "iPhone SDK 튜토리얼", "value": 1 },
+    { "source": "AJ1103839", "target": "Casual game design", "value": 1 },
+    { "source": "AJ1103839", "target": "Gamification & 소셜게임", "value": 1 },
+    { "source": "AJ1103839", "target": "게이미피케이션", "value": 1 },
+    { "source": "AJ1103839", "target": "코코스2d 게임 프로그래밍", "value": 1 },
+    { "source": "AJ1103839", "target": "컨셉을 잡아라", "value": 1 },
+    { "source": "AJ1105350", "target": "고흐", "value": 1 },
+    { "source": "AJ1105350", "target": "서양문화사강의", "value": 1 },
+    { "source": "AJ1105350", "target": "일본 문화론의 변용", "value": 1 },
+    { "source": "AJ1105350", "target": "아킨도", "value": 1 },
+    { "source": "AJ1105350", "target": "스페인 문화의 이해", "value": 1 },
+    {
+      "source": "AJ1105350",
+      "target": "(한 권으로 보는) 스페인 역사",
+      "value": 1
+    },
+    {
+      "source": "AJ1105350",
+      "target": "(경주지역 왕릉 현장기행) 신라왕릉",
+      "value": 1
+    },
+    { "source": "AJ1105350", "target": "조선건축사 (I)", "value": 1 },
+    { "source": "AJ1105350", "target": "존재와 언어", "value": 1 },
+    {
+      "source": "AJ1105350",
+      "target": "The strange case of Dr. Jekyll and Mr. Hyde and other famous tales",
+      "value": 1
+    },
+    { "source": "AJ1105350", "target": "고대로부터의 통신", "value": 1 },
+    { "source": "AJ1105350", "target": "반 고흐 죽음의 비밀 -", "value": 1 },
+    { "source": "AJ1105350", "target": "中國近現代史", "value": 1 },
+    { "source": "AJ1105350", "target": "(역사 속의) 베트남 전쟁", "value": 1 },
+    { "source": "AJ1105350", "target": "중국역사의 이해", "value": 1 },
+    { "source": "AJ1105350", "target": "(일본 속의 백제) 나라", "value": 1 },
+    { "source": "AJ1105350", "target": "그리스 性 풍속사", "value": 1 },
+    { "source": "AJ1105350", "target": "반 고흐 효과", "value": 1 },
+    { "source": "AJ1105350", "target": "일본문화사", "value": 1 },
+    {
+      "source": "AJ1105350",
+      "target": "나는 태국에서 세상을 배웠다",
+      "value": 1
+    },
+    {
+      "source": "AJ1105350",
+      "target": "반 고흐 사랑과 광기의 나날",
+      "value": 1
+    },
+    { "source": "AJ1105350", "target": "백제에서 건너간 일본천황", "value": 1 },
+    { "source": "AJ1105350", "target": "새로 쓴 일본사", "value": 1 },
+    {
+      "source": "AJ1105350",
+      "target": "인류학 민족지 연구 어떻게 할 것인가",
+      "value": 1
+    },
+    { "source": "AJ1103756", "target": "VLSI technology", "value": 1 },
+    { "source": "AJ1103756", "target": "자동차재료", "value": 1 },
+    { "source": "AJ1103756", "target": "한미 FTA 국민보고서", "value": 1 },
+    { "source": "AJ1103756", "target": "인생에 쉼표가 필요할 때", "value": 1 },
+    { "source": "AJ1103756", "target": "런던 하늘 맑음", "value": 1 },
+    {
+      "source": "AJ1103756",
+      "target": "(녹색문화도시) 프라이부르크 읽기",
+      "value": 1
+    },
+    { "source": "AJ1103756", "target": "자동차 가솔린 엔진", "value": 1 },
+    { "source": "AJ1103756", "target": "옛날 영화를 보러 갔다", "value": 1 },
+    {
+      "source": "AJ1103756",
+      "target": "(PRO/II With PROVISON을 이용한) 화학공정의 모사",
+      "value": 1
+    },
+    {
+      "source": "AJ1103756",
+      "target": "(상식으로 꼭 알아야 할) 미국의 역사",
+      "value": 1
+    },
+    { "source": "AJ1103756", "target": "러시 라이프", "value": 1 },
+    { "source": "AJ1103756", "target": "낯선 식민지 한미 FTA", "value": 1 },
+    { "source": "AJ1103756", "target": "냉동공학", "value": 1 },
+    { "source": "AJ1103756", "target": "파리의 장소들", "value": 1 },
+    { "source": "AJ1103756", "target": "초고집적 공정기술", "value": 1 },
+    { "source": "AJ1103756", "target": "워킹 걸 워즈", "value": 1 },
+    { "source": "AJ1103756", "target": "아시아 자유무역론", "value": 1 },
+    { "source": "AJ1103756", "target": "Paris travel note", "value": 1 },
+    { "source": "AJ1103756", "target": "아이 러브 런던", "value": 1 },
+    { "source": "AJ1103756", "target": "애별", "value": 1 },
+    { "source": "AJ1103756", "target": "베이커리 남자", "value": 1 },
+    {
+      "source": "AJ1103756",
+      "target": "환경 수도 프라이부르크에서 배운다",
+      "value": 1
+    },
+    {
+      "source": "AJ1103756",
+      "target": "인류학 민족지 연구 어떻게 할 것인가",
+      "value": 1
+    },
+    { "source": "AJ1103756", "target": "그림 눈물을 닦다", "value": 1 },
+    {
+      "source": "AJ1102363",
+      "target": "(만들면서 배우는) 워드프레스 교과서",
+      "value": 1
+    },
+    { "source": "AJ1102363", "target": "워드프레스 제대로 파기", "value": 1 },
+    {
+      "source": "AJ1102363",
+      "target": "(Do it!) 워드프레스 웹사이트 만들기",
+      "value": 1
+    },
+    { "source": "AJ1103088", "target": "Processing", "value": 1 },
+    {
+      "source": "AJ1103088",
+      "target": "(예제로 배우는) R 프로그래밍",
+      "value": 1
+    },
+    {
+      "source": "AJ1103088",
+      "target": "(프로그래밍 첫 경험) 야금야금 프로세싱",
+      "value": 1
+    },
+    { "source": "AJ1103088", "target": "프로 Git", "value": 1 },
+    { "source": "AJ1103088", "target": "WebGL 개발 입문", "value": 1 },
+    { "source": "AJ1103088", "target": "리얼-타임 렌더링", "value": 1 },
+    { "source": "AJ1103088", "target": "프리미어 프로 CS3", "value": 1 },
+    {
+      "source": "AJ1103088",
+      "target": "누가 우리의 밥상을 지배하는가",
+      "value": 1
+    },
+    {
+      "source": "AJ1103088",
+      "target": "Introduction to algorithms",
+      "value": 1
+    },
+    { "source": "AJ1103088", "target": "리눅스*그냥 재미로", "value": 1 },
+    { "source": "AJ1103088", "target": "Head first Python", "value": 1 },
+    {
+      "source": "AJ1103088",
+      "target": "리눅스 서버관리 실무 바이블 3.0",
+      "value": 1
+    },
+    { "source": "AJ1103088", "target": "워드프레스 제대로 파기", "value": 1 },
+    { "source": "AJ1103088", "target": "모바일 웹앱", "value": 1 },
+    { "source": "AJ1103088", "target": "센차터치 2", "value": 1 },
+    {
+      "source": "AJ1103088",
+      "target": "(활용 데이터 아키텍처 구축을 위한)데이터 모델링 이론 및 실습",
+      "value": 1
+    },
+    {
+      "source": "AJ1103088",
+      "target": "(웹 프로그래머를 위한) 데이터베이스를 지탱하는 기술",
+      "value": 1
+    },
+    {
+      "source": "AJ1103088",
+      "target": "(우분투 환경에서) C 언어로 배우는 리눅스 프로그래밍",
+      "value": 1
+    },
+    {
+      "source": "AJ1103088",
+      "target": "(Do it!) 워드프레스 웹사이트 만들기",
+      "value": 1
+    },
+    {
+      "source": "AJ1103088",
+      "target": "안드로이드 NDK 프로그래밍",
+      "value": 1
+    },
+    { "source": "AJ1103965", "target": "근대사회 경제사상의 탐구", "value": 1 },
+    {
+      "source": "AJ1103965",
+      "target": "이슬람 우리는 무엇을 알고 있나？",
+      "value": 1
+    },
+    {
+      "source": "AJ1103965",
+      "target": "한국인들이 이슬람에 대해 궁금해 하는 33가지",
+      "value": 1
+    },
+    { "source": "AJ1103965", "target": "이슬람의 이해", "value": 1 },
+    {
+      "source": "AJ1103965",
+      "target": "(Do it!) 워드프레스 웹사이트 만들기",
+      "value": 1
+    },
+    { "source": "AJ1103965", "target": "근대세계체제", "value": 1 },
+    { "source": "AJ1100515", "target": "완전불어", "value": 1 },
+    { "source": "AJ1100515", "target": "Word smart", "value": 1 },
+    { "source": "AJ1100515", "target": "프랑스어 입문", "value": 1 },
+    { "source": "AJ1100515", "target": "(대학) 프랑스어 문법", "value": 1 },
+    { "source": "AJ1100515", "target": "프랑스 기초어휘", "value": 1 },
+    { "source": "AJ1100515", "target": "(최신) 프랑스어 독해", "value": 1 },
+    {
+      "source": "AJ1100515",
+      "target": "독일어 급하신 분을 위한 표현백서",
+      "value": 1
+    },
+    { "source": "AJ1100515", "target": "세계 프랑스어권 지역연구", "value": 1 },
+    { "source": "AJ1100515", "target": "프랑스어 문법", "value": 1 },
+    {
+      "source": "AJ1100515",
+      "target": "프랑스 네이티브가 가장 많이 쓰는 프랑스어 표현 Best",
+      "value": 1
+    },
+    { "source": "AJ1100515", "target": "성경이야기", "value": 1 },
+    { "source": "AJ1100515", "target": "프랑스어 작문", "value": 1 },
+    { "source": "AJ1100515", "target": "(Le) nouveau DELF B2", "value": 1 },
+    { "source": "AJ1100515", "target": "DELF B1", "value": 1 },
+    { "source": "AJ1100515", "target": "삼매경", "value": 1 },
+    { "source": "AJ1107380", "target": "100% 프랑스인", "value": 1 },
+    { "source": "AJ1107380", "target": "프랑스 사회와 문화", "value": 1 },
+    { "source": "AJ1107380", "target": "개발 없는 개발", "value": 1 },
+    {
+      "source": "AJ1107380",
+      "target": "빌 브라이슨 발칙한 유럽 산책",
+      "value": 1
+    },
+    { "source": "AJ1107380", "target": "유럽 연합의 이해", "value": 1 },
+    { "source": "AJ1107380", "target": "거의 모든 사생활의 역사", "value": 1 },
+    { "source": "AJ1107380", "target": "패러독스 논리학", "value": 1 },
+    {
+      "source": "AJ1107380",
+      "target": "서박사 SSAT 삼성그룹 직무적성검사",
+      "value": 1
+    },
+    { "source": "AJ1107380", "target": "감성의 분할", "value": 1 },
+    { "source": "AJ1107380", "target": "한국 사람들", "value": 1 },
+    { "source": "AJ1107380", "target": "몰리에르 희곡선", "value": 1 },
+    {
+      "source": "AJ1107380",
+      "target": "쎄느강은 좌우를 나누고 한강은 남북을 가른다",
+      "value": 1
+    },
+    {
+      "source": "AJ1107380",
+      "target": "보바리의 남자 오셀로의 여자",
+      "value": 1
+    },
+    { "source": "AJ1107380", "target": "구토", "value": 1 },
+    { "source": "AJ1107380", "target": "검은 피부 하얀 가면", "value": 1 },
+    { "source": "AJ1107380", "target": "탐욕의 시대", "value": 1 },
+    { "source": "AJ1107380", "target": "Belleville", "value": 1 },
+    { "source": "AJ1107380", "target": "유럽의 부활", "value": 1 },
+    { "source": "AJ1107380", "target": "Real Paris", "value": 1 },
+    { "source": "AJ1107380", "target": "파리를 생각한다", "value": 1 },
+    {
+      "source": "AJ1107380",
+      "target": "(세상과 소통을 꿈꾸는) 아스퍼거 증후군 아이들",
+      "value": 1
+    },
+    {
+      "source": "AJ1107380",
+      "target": "별종 괴짜 그리고 아스퍼거 증후군",
+      "value": 1
+    },
+    { "source": "AJ1107380", "target": "(2007) PSAT Leader -", "value": 1 },
+    { "source": "AJ1107380", "target": "유럽낭만 탐닉", "value": 1 },
+    {
+      "source": "AJ1107380",
+      "target": "(폴로 왕국의 제왕) 랄프 로렌 스토리",
+      "value": 1
+    },
+    { "source": "AJ1107380", "target": "친절한 북유럽", "value": 1 },
+    { "source": "AJ1107380", "target": "디자이너의 스케치북", "value": 1 },
+    { "source": "AJ1107380", "target": "이것이 문화비평이다", "value": 1 },
+    { "source": "AJ1107380", "target": "더 테이블", "value": 1 },
+    {
+      "source": "AJ1107380",
+      "target": "(네이버 오픈마켓 나만의 쇼핑몰) 샵N 만들기",
+      "value": 1
+    },
+    {
+      "source": "AJ1107380",
+      "target": "(1%의 숨은 고객도 사로잡는) 소셜 마케팅",
+      "value": 1
+    },
+    {
+      "source": "AJ1107380",
+      "target": "(상위 노출 전략! 파워블로거의) 돈 버는 실전 블로그 마케팅",
+      "value": 1
+    },
+    { "source": "AJ1107380", "target": "(Le) nouveau DELF B2", "value": 1 },
+    { "source": "AJ1107380", "target": "DELF B2", "value": 1 },
+    { "source": "AJ1107380", "target": "왜 팔리는가", "value": 1 },
+    {
+      "source": "AJ1107380",
+      "target": "BoP 비즈니스 지속적인 기업 성장의 마지막 기회",
+      "value": 1
+    },
+    {
+      "source": "AJ1107380",
+      "target": "(현명한 선택을 이끄는 부드러운 개입) 심플러",
+      "value": 1
+    }
+  ]
+}

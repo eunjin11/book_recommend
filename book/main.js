@@ -8,23 +8,24 @@ function clicked(d) {
       .attr("height", 10)
       .attr("width", 10)
       .style("stroke-width", 1.5)
-      .style("stroke", "#fff"); //하이라이트 초기화
+      .style("stroke", "#ffc6ce"); //하이라이트 초기화
 
     d3.select(this)
       .select("rect")
-      .attr("height", 30)
-      .attr("width", 30)
-      .style("stroke-width", 6)
+      .attr("height", 15)
+      .attr("width", 15)
+      .style("stroke-width", 3)
       .style("stroke", "#ff0000"); //하이라이트 강조
+
     document.getElementById("result").innerText = d.id;
     document.getElementById("bookInfo").innerText =
       "제목: " +
       d.id +
-      " 작가: " +
+      "\n 작가: " +
       d.author +
-      " 출판사: " +
+      "\n 출판사: " +
       d.publisher +
-      " 청구기호: " +
+      "\n 청구기호: " +
       d.book_number;
     //"아이디: " + d.id + "학과: " + d.group;
   } else {
@@ -35,13 +36,13 @@ function clicked(d) {
 
     d3.select(this)
       .select("circle")
-      .attr("r", 20)
-      .style("stroke-width", 6)
+      .attr("r", 10)
+      .style("stroke-width", 3)
       .style("stroke", "#ff0000"); //하이라이트 강조
 
     document.getElementById("result").innerText = d.id;
     document.getElementById("bookInfo").innerText =
-      "아이디: " + d.id + "  학과: " + d.group;
+      "아이디: " + d.id + "\n  학과: " + d.group;
     //"아이디: " + d.id + "학과: " + d.group;
   }
 
@@ -50,7 +51,7 @@ function clicked(d) {
 }
 
 async function clickinputId() {
-  var inputID2 = document.getElementById("userid").value;
+  var inputID2 = document.getElementById("result").value;
   if (inputID != null) {
     document.getElementById("result").innerText = inputID2;
     console.log(inputID2);
@@ -59,7 +60,7 @@ async function clickinputId() {
   var inputID = document.getElementById("result").innerText;
   console.log(inputID);
   // console.log();
-  const d = await window.axios.get("./book/data_1205_new.csv");
+  const d = await window.axios.get("./book/test_df_edit.csv");
   //console.log(d.data);
   const result = d.data;
   const id = inputID;
