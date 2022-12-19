@@ -75,14 +75,14 @@
 
     /*
               color: #fff;
+              border: 1px solid #5b7fff;
+              background-color: #5b7fff;
+
               height: 34px;
               line-height: 12px;
               margin: 4px 4px 8px 6px;
               padding: 9px 12px;
               border-radius: 16px;
-
-              border: 1px solid #5b7fff;
-              background-color: #5b7fff;
 
               font-family: InriaSans;
               font-size: 12px;
@@ -94,6 +94,11 @@
               text-align: center; */
   }
 
+  .button:focus {
+    color: #fff;
+    border: 1px solid #5b7fff;
+    background-color: #5b7fff;
+  }
   .sidebar {
     width: 27%;
 
@@ -269,6 +274,12 @@
     d3.json("./book/college1.json", function (error, graph) {
       createNetwork(graph);
     });
+
+    // document.getElementByclass("button").style.color = "#5b7fff";
+    // document.getElementByclass("button").style.backgroundColor = "#fff";
+
+    // this.style.color = "#fff";
+    // this.style.backgroundColor = "#5b7fff";
   }
 
   function filtering2() {
