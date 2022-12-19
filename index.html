@@ -94,11 +94,27 @@
               text-align: center; */
   }
 
-  .button:focus {
+  .clickedbutton {
     color: #fff;
     border: 1px solid #5b7fff;
     background-color: #5b7fff;
+
+    height: 34px;
+    line-height: 12px;
+    margin: 4px 4px 8px 6px;
+    padding: 9px 12px;
+    border-radius: 16px;
+
+    font-family: InriaSans;
+    font-size: 12px;
+
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
   }
+
   .sidebar {
     width: 27%;
 
@@ -255,6 +271,24 @@
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="./book/main.js"></script>
 <script>
+  //https://velog.io/@real-bird/Javascript-%ED%81%B4%EB%A6%AD%ED%95%9C-div%EB%A7%8C-%EC%83%89%EC%83%81-%EB%B0%94%EA%BE%B8%EA%B8%B0
+  const button = document.querySelectorAll(".button");
+
+  function handleClick(event) {
+    // div에서 모든 "click" 클래스 제거
+    button.forEach((e) => {
+      e.classList.remove("clickedbutton");
+    });
+    // 클릭한 div만 "click"클래스 추가
+    event.target.classList.add("clickedbutton");
+  }
+
+  button.forEach((e) => {
+    e.addEventListener("click", handleClick);
+  });
+
+  //클릭한 버튼 색상 바꾸기
+
   var svg = d3.select("#mainview").attr("width", 1000).attr("height", 1000),
     width = +svg.attr("width"),
     height = +svg.attr("height");
