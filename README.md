@@ -12,7 +12,7 @@
   * 정혜림 flafla114@gmail.com
   * 이주희 ajouhee@gmail.com
   * 황은비 pintotoro123@ajou.ac.kr
-  * 조은진 whdmswls9207@ajou.ac.kr
+  * 조은진 whdmswls9207@ajou.ac.kr - 네트워크 시각화
 
 ## 배포 링크
 https://eunjin11.github.io/book_recommend/
